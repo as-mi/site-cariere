@@ -10,9 +10,10 @@
 --------------------------------------------------------------*/
 
 body {
-  background: #fff;
   color: #444;
   font-family: "Open Sans", sans-serif;
+  background-image: url("../img/pw_maze_white.png");
+
 }
 
 a {
@@ -173,31 +174,48 @@ h6 {
 #intro {
   width: 100%;
   position: relative;
-  background: url("../img/intro-bg.png") center bottom no-repeat;
+  background: url("../img/header-bg.png") center bottom no-repeat;
+
   background-size: cover;
   padding: 200px 0 120px 0;
 }
 
 #intro .intro-img {
   width: 50%;
-  float: right;
+  float: left;
 }
 
 #intro .intro-info {
   width: 50%;
-  float: left;
+  float: right;
 }
 
 #intro .intro-info h2 {
   color: #fff;
   margin-bottom: 40px;
-  font-size: 48px;
-  font-weight: 700;
+  font-size: 36px;
+  font-weight: 400;
+  text-align: right;
+  float:inline-end;
+  display:inline-block
+}
+
+.intro-location-text {
+  width: 80%;
+  float:right;
+
+}
+
+.intro-img-location {
+  width: 20%;
+  text-align: center;
+  float:inline-end
 }
 
 #intro .intro-info h2 span {
   color: #74b5fc;
   text-decoration: underline;
+  float:right
 }
 
 #intro .intro-info .btn-get-started,
@@ -212,11 +230,12 @@ h6 {
   transition: 0.5s;
   margin: 0 20px 20px 0;
   color: #fff;
+  float:inline-end;
 }
 
 #intro .intro-info .btn-get-started {
-  background: #007bff;
-  border: 2px solid #007bff;
+  background: #145e23;
+  border: 2px solid #145e23;
   color: #fff;
 }
 
@@ -231,9 +250,10 @@ h6 {
 }
 
 #intro .intro-info .btn-services:hover {
-  background: #007bff;
-  border-color: #007bff;
+  background: #145e23;
+  border-color: #145e23;
   color: #fff;
+
 }
 
 /*--------------------------------------------------------------
@@ -476,13 +496,15 @@ h6 {
 
 .section-bg {
   background: #ecf5ff;
+  
 }
 
 /* About Us Section
 --------------------------------*/
 
 #about {
-  background: #fff;
+  
+  background-image: url("../img/pw_maze_white.png");
   padding: 60px 0;
 }
 
