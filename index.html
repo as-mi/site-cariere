@@ -37,6 +37,64 @@
 <body>
 
   <!--==========================
+  Modal
+  ============================-->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Softbinator Technologies</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Back End:<br>
+          .Net/C#:<br>
+          If you have: <br>
+          -Knowledge of algorithms &amp; data structures;<br>
+          -Experience with .Net, C#, Entity Framework;<br>
+          -Experience with Relational Databases preferential MySQL;<br>
+          -Experience with any NoSQL databases it&rsquo;s a plus.<br>
+          <br>
+    
+         Java:<br>
+          If you have:<br>
+          -Experience with algorithms &amp; data structures;<br>
+          -Experience with Java 8+ &amp; Java Web Frameworks (preferential Spring Framework, Spring boot it&rsquo;s a plus);<br>
+          -Experience with Relational Databases, preferential MySQL;<br>
+          -Experience with any NoSQL databases it&rsquo;s a plus.<br>
+          <br>
+         Front End:<br>
+          If you have:<br>
+          -Strong understanding of JavaScript;<br>
+          -Basic understanding of web markup, including HTML and CSS;<br>
+          -Good understanding of AngularJS and/or ReactJS;<br>
+          -Good understanding of asynchronous request handling, partial page updates, and AJAX, browser rendering behavior and performance. <br>
+          <br>
+         Mobile:<br>
+          Android:<br>
+          If you have:<br>
+          -Strong understanding of OOP concepts;<br>
+          -Experience with algorithms &amp; data structures;<br>
+          -Experience with Relational Databases;<br>
+          -Experience with Kotlin (nice to have);<br>
+          -Android experience in personal project (nice to have);<br>
+          <br>
+         iOS:<br>
+          If you have:<br>
+          -Strong understanding of OOP concepts;<br>
+          -Experience with algorithms &amp; data structures;<br>
+          -Experience with Relational Databases;<br>
+          -iOS experience in personal project (nice to have).</p>      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Inapoi</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!--==========================
   Header
   ============================-->
   <header id="header" class="fixed-top">
@@ -55,6 +113,7 @@
           <li><a href="#services">Program</a></li>
           <li><a href="#clients">Sponsori</a></li>
           <li><a href="#footer">Contact</a></li>
+
           <!--
           <li class="drop-down"><a href="">Drop Down</a>
             <ul>
@@ -664,7 +723,7 @@
 
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="client-logo">
-              <img src="img/clients/client-1.png" class="img-fluid" alt="">
+              <img data-toggle="modal" data-target="#exampleModal" src="img/clients/client-1.jpg" class="img-fluid" alt="">
             </div>
           </div>
           

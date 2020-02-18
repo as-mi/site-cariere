@@ -1040,7 +1040,7 @@ h6 {
 
 #clients {
   padding: 60px 0;
-  box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0px 0px 12px 0px rgba(0, 255, 0, 0.1);
 }
 
 #clients .clients-wrap {
@@ -1205,7 +1205,7 @@ h6 {
 }
 
 #contact .form button[type="submit"]:hover {
-  background: #0067d5;
+  background: #145e23;
   cursor: pointer;
 }
 
