@@ -609,18 +609,19 @@ h6 {
   box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
 }
 
-
 #services .box {
-  padding: 30px;
+  padding: 20px;
   position: relative;
   overflow: hidden;
   border-radius: 10px;
-  margin: 0 10px 40px 10px;
+  margin: 0 10px 20px 10px;
   background: #fff;
   box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
   transition: all 0.3s ease-in-out;
 }
-
+#services .container-services {
+  margin:0px 20px 20px 20px;
+}
 #services .box:hover {
   -webkit-transform: translateY(-5px);
   transform: translateY(-5px);
@@ -629,7 +630,7 @@ h6 {
 #services .icon {
   position: absolute;
   left: -10px;
-  top: calc(50% - 32px);
+  top: 12px;
 }
 
 #services .icon i {
@@ -641,7 +642,7 @@ h6 {
 #services .title {
   margin-left: 40px;
   font-weight: 700;
-  margin-bottom: 15px;
+  margin-bottom: 22px;
   font-size: 18px;
 }
 
