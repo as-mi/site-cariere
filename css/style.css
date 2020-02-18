@@ -426,7 +426,7 @@ h6 {
   position: fixed;
   right: 0;
   top: 0;
-  z-index: 9998;
+  z-index:9998;
   border: 0;
   background: none;
   font-size: 24px;
@@ -1079,6 +1079,12 @@ h6 {
   transition: all 0.4s ease-in-out;
 }
 
+#clients .rank-header {
+  color:#145e23;
+  text-align: center;
+  font-variant: small-caps;
+}
+
 /* Contact Section
 --------------------------------*/
 
@@ -1354,6 +1360,10 @@ h6 {
 
 #footer .credits a:hover {
   color: #f1f7ff;
+}
+
+.modal {
+  z-index: 10000;
 }
 
 /*--------------------------------------------------------------
