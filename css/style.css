@@ -679,7 +679,7 @@ h6 {
 }
 #why-us {
   padding: 60px 0;
-  background: #004a99;
+  background: rgb(75,185,88);
 }
 
 #why-us .section-header h3,
@@ -688,8 +688,8 @@ h6 {
 }
 
 #why-us .card {
-  background: #00458f;
-  border-color: #00458f;
+  background: rgb(88,187,100);
+  border-color: rgb(88,187,100);
   border-radius: 10px;
   margin: 0 15px;
   padding: 15px 0;
