@@ -679,7 +679,7 @@ h6 {
 }
 #why-us {
   padding: 60px 0;
-  background: rgb(75,185,88);
+  background: rgb(70,153,92);
 }
 
 #why-us .section-header h3,
@@ -688,8 +688,8 @@ h6 {
 }
 
 #why-us .card {
-  background: rgb(88,187,100);
-  border-color: rgb(88,187,100);
+  background: rgb(64,138,84);
+  border-color: rgb(64,138,84);
   border-radius: 10px;
   margin: 0 15px;
   padding: 15px 0;
@@ -700,8 +700,8 @@ h6 {
 }
 
 #why-us .card:hover {
-  background: #003b7a;
-  border-color: #003b7a;
+  background: #145e23;
+  border-color: #145e23;
 }
 
 #why-us .card i {
@@ -732,25 +732,26 @@ h6 {
   border-bottom: #fff solid 2px;
 }
 
-#why-us .counters {
+#stats .counters {
   padding-top: 40px;
 }
 
-#why-us .counters span {
+#stats .counters span {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 48px;
   display: block;
-  color: #fff;
+  color: #145e23;
 }
 
-#why-us .counters p {
+#stats .counters p {
   padding: 0;
   margin: 0 0 20px 0;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
-  color: #cce5ff;
+  color: #145e23;
 }
+
 
 /* Portfolio Section
 --------------------------------*/
