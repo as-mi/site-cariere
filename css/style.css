@@ -665,6 +665,15 @@ h6 {
   color:#fff;
 }
 
+#services .section-header h4 {
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+  padding: 40px 0 20px 0;
+  font-weight: 400;
+  position: relative;
+
+}
 #services .section-header p {
   color:#fff;
 }
@@ -1470,3 +1479,11 @@ h6 {
     padding: 100px 0 20px 0;
   }
 }
+
+
+
+
+
+
+
+
