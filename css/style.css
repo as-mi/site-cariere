@@ -481,6 +481,8 @@ h6 {
   position: relative;
 }
 
+
+
 .section-header p {
   text-align: center;
   margin: auto;
@@ -679,16 +681,16 @@ h6 {
 }
 #why-us {
   padding: 60px 0;
-  background: rgb(70,153,92);
+  /*background: rgb(70,153,92);*/
 }
 
 #why-us .section-header h3,
 #why-us .section-header p {
-  color: #fff;
+  color: #333;
 }
 
 #why-us .card {
-  background: rgb(64,138,84);
+  background: rgba(64,138,84,2);
   border-color: rgb(64,138,84);
   border-radius: 10px;
   margin: 0 15px;
@@ -1051,7 +1053,7 @@ h6 {
 
 #clients {
   padding: 60px 0;
-  box-shadow: inset 0px 0px 12px 0px rgba(0, 255, 0, 0.1);
+  /*box-shadow: inset 0px 0px 12px 0px rgba(0, 255, 0, 0.1); TODO PT SHADOW AICI*/ 
 }
 
 #clients .clients-wrap {
@@ -1060,6 +1062,10 @@ h6 {
   margin-bottom: 30px;
 }
 
+
+.container-footer {
+  padding:0px 20px 0px 20px;
+}
 #clients .client-logo {
   padding: 64px;
   display: -webkit-box;
@@ -1239,7 +1245,14 @@ h6 {
 
 #footer .footer-top {
   background: #24913a;
-  padding: 60px 0 30px 0;
+  padding: 30px 0  0;
+}
+.footer-top i {
+  padding:10px;
+}
+
+.footer-top .social-links i {
+  padding: 0px;
 }
 
 #footer .footer-top .footer-info {
@@ -1424,6 +1437,11 @@ h6 {
   .back-to-top {
     bottom: 15px;
   }
+ 
+}
+
+.stacked-logo {
+  width:50%
 }
 
 @media (max-width: 767px) {
@@ -1437,6 +1455,9 @@ h6 {
     text-align: left;
     width:90%;
     
+  }
+   .stacked-logo {
+    width:25%!important;
   }
 
   #intro .intro-img-location {
@@ -1479,6 +1500,8 @@ h6 {
   #intro {
     padding: 100px 0 20px 0;
   }
+
+  
 }
 
 
