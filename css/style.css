@@ -746,6 +746,12 @@ h6 {
   color: #145e23;
 }
 
+.btn-primary {
+  background-color:#145e23!important;
+  border: #145e23
+  
+}
+
 #stats .counters p {
   padding: 0;
   margin: 0 0 20px 0;
