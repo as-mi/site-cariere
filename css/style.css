@@ -1449,6 +1449,17 @@ h6 {
   width:50%
 }
 
+.stacked-logo-ey {
+  width:60%
+}
+.stacked-logo-eric {
+  width:30%
+}
+
+.stacked-logo-wipro {
+  width:110%
+}
+
 @media (max-width: 767px) {
   #intro .intro-info {
     width: 100%;
@@ -1463,6 +1474,13 @@ h6 {
   }
    .stacked-logo {
     width:25%!important;
+  }
+  .stacked-logo-ey {
+    width:33%!important;
+  }
+
+  .stacked-logo-wipro {
+    width:40%!important;  
   }
 
   #intro .intro-img-location {
