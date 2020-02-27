@@ -231,6 +231,21 @@ h6 {
   color: #fff;
 }
 
+
+#intro .intro-info .btn-feedback {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  display: inline-block;
+  
+  padding: 10px 32px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 0 20px 20px 0;
+  color: #fff;  
+}
+
 #intro .intro-info .btn-get-started {
   background: #145e23;
   border: 2px solid #145e23;
@@ -243,11 +258,11 @@ h6 {
   color: #fff;
 }
 
-#intro .intro-info .btn-services {
+#intro .intro-info .btn-services, #intro .intro-info .btn-feedback {
   border: 2px solid #fff;
 }
 
-#intro .intro-info .btn-services:hover {
+#intro .intro-info .btn-services:hover, #intro .intro-info .btn-feedback:hover {
   background: #145e23;
   border-color: #145e23;
   color: #fff;
@@ -1053,6 +1068,13 @@ h6 {
   margin: 0 2px;
 }
 
+
+.list-4psa {
+  list-style:none;
+}
+.list-4psa li:before {
+  content:'✓ ';
+}
 /* Clients Section
 --------------------------------*/
 
@@ -1496,7 +1518,7 @@ h6 {
   }
 
   #intro .header-buttons {
-    float: left;
+    float: right;
   }
 
   .section-header p {
