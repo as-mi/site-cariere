@@ -6,34 +6,55 @@
 */
 
 :root{
-  --primary-1: #47b2e4;
   --primary-2: #73c5eb;
-  --primary-3: #37517e;
+  --primary-1: #47b2e4;
   --primary-4: #209dd8;
-  --primary-5: var(--primary-8);
   --primary-6: #31a9e1;
-  --primary-7: #343a40;
-  --primary-8: rgba(40, 58, 90, 0.9);
   --primary-9: #6182ba;
   --primary-10: #4668a2;
+  --primary-3: #37517e;
+  --primary-8: rgba(40, 58, 90, 0.9);
+  --primary-7: #343a40;
   --light: #fff;
   --light-2: #ddd;
   --light-3: #eff2f8;
   --light-4: #eee;
   --light-5: #f3f5fa;
-  --dark: #444444;
-  --dark-2: #333;
-  --gray: #848484;
+  --gray-1: #848484;
   --gray-2: #777777;
   --gray-3: #5e5e5e;
+  --dark-1: #444444;
+  --dark-2: #333;
 }
+
+/*:root{
+  --primary-2: #b1ffab;
+  --primary-1: #a1ff99;
+  --primary-4: #8bf582;
+  --primary-6: #81e378;
+  --primary-9: #77d16f;
+  --primary-10: #71c769;
+  --primary-3: #6AB663;
+  --primary-8: #579951;
+  --primary-7: #343a40;
+  --light: #fff;
+  --light-2: #ddd;
+  --light-3: #eff2f8;
+  --light-4: #eee;
+  --light-5: #f3f5fa;
+  --gray-1: #848484;
+  --gray-2: #777777;
+  --gray-3: #5e5e5e;
+  --dark-1: #444444;
+  --dark-2: #333;
+}*/
 
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: var(--dark);
+  color: var(--dark-1);
 }
 
 a {
@@ -414,10 +435,10 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 80vh;
+  /*height: 80vh;*/
   overflow: hidden;
   position: relative;
-  padding: 0;
+  padding: 0!important;
   background: var(--primary-3);
 }
 
@@ -486,7 +507,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 991px) {
   #hero {
-    height: 100vh;
+    /*height: 100vh;*/
     text-align: center;
   }
   #hero .animated {
@@ -796,7 +817,7 @@ section {
 
 .why-us .content p {
   font-size: 15px;
-  color: var(--gray);
+  color: var(--gray-1);
 }
 
 .why-us .img {
@@ -1075,7 +1096,7 @@ section {
   font-size: 15px;
   font-weight: 500;
   line-height: 1;
-  color: var(--dark);
+  color: var(--dark-1);
   transition: all 0.3s;
   padding: 8px 20px;
   border-radius: 50px;
@@ -1792,7 +1813,7 @@ section {
   background: var(--light-5);
   text-align: center;
   font-size: 15px;
-  color: var(--dark);
+  color: var(--dark-1);
 }
 
 #footer .footer-newsletter h4 {
