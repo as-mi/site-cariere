@@ -710,14 +710,14 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Cliens
+# Top Clients
 --------------------------------------------------------------*/
-.cliens {
+.top-clients {
   padding: 12px 0;
   text-align: center;
 }
 
-.cliens img {
+.top-clients img {
   max-width: 45%;
   transition: all 0.4s ease-in-out;
   display: inline-block;
@@ -726,14 +726,43 @@ section {
   filter: grayscale(100);
 }
 
-.cliens img:hover {
+.top-clients img:hover {
   -webkit-filter: none;
   filter: none;
   transform: scale(1.1);
 }
 
 @media (max-width: 768px) {
-  .cliens img {
+  .top-clients img {
+    max-width: 40%;
+  }
+}
+
+/*--------------------------------------------------------------
+# clients
+--------------------------------------------------------------*/
+.clients {
+  text-align: center;
+}
+
+.clients img {
+  cursor: pointer;
+  max-width: 45%;
+  transition: all 0.4s ease-in-out;
+  display: inline-block;
+  padding: 15px 0;
+  -webkit-filter: grayscale(100);
+  filter: grayscale(100);
+}
+
+.clients img:hover {
+  -webkit-filter: none;
+  filter: none;
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .clients img {
     max-width: 40%;
   }
 }
@@ -1084,6 +1113,17 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+
+.portfolio img{
+  -webkit-filter: grayscale(100);
+  filter: grayscale(100);
+}
+
+.portfolio img:hover{
+  -webkit-filter: none;
+  filter: none;
+}
+
 .portfolio #portfolio-flters {
   list-style: none;
   margin-bottom: 20px;
