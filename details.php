@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<?php include_once "shared/company.php"; ?>
+
+<?php
+    $company = $_GET["company"];
+    $company_details = get_company_details("companies/".$company.".json");
+    $GLOBALS["title"] = $company_details["name"];
+?>
+
 <?php include_once "components/head.php"; ?>
 
 <body>
@@ -22,9 +30,9 @@
         <div class="container">
             <ol>
                 <li><a href="/">Acasă</a></li>
-                <li>Atta Systems</li>
+                <li><?php echo $company_details["name"]; ?></li>
             </ol>
-            <h2>Atta Systems</h2>
+            <h2><?php echo $company_details["name"]; ?></h2>
 
         </div>
     </section><!-- End Breadcrumbs -->
@@ -44,36 +52,17 @@
                 <div class="portfolio-info">
                     <h3>Atta Systems</h3>
                     <ul>
-                        <li><strong>Category</strong>: Full Stack Development</li>
+                        <li><strong>Category</strong>: <?php echo $company_details["category"]; ?></li>
                         <li><strong>Client</strong>: ASU Company</li>
                         <li><strong>Project date</strong>: 01 March, 2020</li>
-                        <li><strong>Project URL</strong>: <a href="https://atta.systems/careers/" target="_blank">atta.systems/careers</a></li>
+                        <li><strong>Project URL</strong>: <a href="<?php echo $company_details["url"]; ?>" target="_blank"><?php echo str_replace("https://", "", $company_details["url"]); ?></a></li>
                     </ul>
                 </div>
 
             </div>
 
             <div class="portfolio-description">
-                <br>
-                <h2>Why it's an exciting time to be here @ Atta Systems! 🎇</h2>
-                <p>
-                    If you are passionate about technology and software product development, then keep reading, because Atta develops impactful software products with 🧡 !
-                </p>
-                <br>
-                <h2>Atta Systems offers Paid Internships with a possibility of Full Time Job position for:</h2>
-                <ul>
-                    <li>📱 Mobile Development - hybrid technologies like React Native or Flutter, as well as native technologies for iOS and Android</li>
-                    <li>💻 Backend Development - Java, Spring Framework, Python, Node.js</li>
-                    <li>🖥 Frontend Development - JavaScript, Angular, React</li>
-                    <li>🎨 Product Designer - user research, user experience, user interface</li>
-                    <li>🤖 AI Engineer - Tensor Flow, Python</li>
-                </ul>
-                <p>
-                Inside Atta team there are 🚴🏼‍♂‍, 🏄🏻‍♂‍, ⛷, 🏂, 🎤 + of a variety of people, like 👨‍👩‍👧‍👦 people, 🙋🏽‍♀‍ 🙋🏻‍♂‍ people, 🧙🏼‍♂‍ people, 👨🏽‍🎓 people, HAPPY PEOPLE. As you can see you already are part of their amazing team! Be also a part of their story!
-                <br><br>
-                <h4>P.S: Want to know more about our amazing team & projects ?</h4>
-                Check us out on: <a href="https://atta.systems/careers/" target="_blank">atta.systems/careers</a>
-                </p>
+                <?php echo $company_details["template"]; ?>
             </div>
 
         </div>
