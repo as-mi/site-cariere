@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<?php include_once "shared/company.php"; ?>
 <?php include_once "components/head.php"; ?>
 
 <body>
@@ -241,20 +242,20 @@
       <section id="clients" class="clients section-bg">
           <div class="container" data-aos="zoom-in">
               <div class="section-title">
-                  <h2>Services</h2>
-                  <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                  <h2>Partenerii noștii</h2>
+                  <p>Apasă pe logo-ul companiilor pentru a vedea ofertele lor de angajare!</p>
               </div>
+              <?php
+                 $companies = glob("companies/*.json");
+              ?>
               <div class="row py-5" data-aos="zoom-in">
 
-                  <div class="col-lg-4 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                      <a target="_blank" href="details.php"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></a>
-                  </div>
-                  <div class="col-lg-4 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                      <a target="_blank" href="details.php"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></a>
-                  </div>
-                  <div class="col-lg-4 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                      <a target="_blank" href="details.php"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></a>
-                  </div>
+                  <?php foreach($companies as $company): ?>
+                      <?php $company_details = get_company_details($company); ?>
+                      <div class="col-lg-4 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                          <a target="_blank" href="details.php?company=<?php echo $company_details['id']; ?>"><img src="<?php echo $company_details['logo']; ?>" class="img-fluid" alt=""></a>
+                      </div>
+                  <?php endforeach; ?>
 
               </div>
 
