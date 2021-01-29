@@ -815,7 +815,7 @@ section {
   color: var(--primary-1);
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  margin-top: 6px;
+  margin-top: 20px;  /* in the template it was 6px */
   border: 2px solid var(--primary-1);
 }
 
@@ -2027,4 +2027,19 @@ section {
   #footer .credits {
     padding-top: 4px;
   }
+}
+
+
+/* added css, not from the template */
+.strong-blue{
+  color: var(--primary-8);
+  font-size: 110%;
+}
+/* about us section */
+.middle-align{
+  text-align: center;
+}
+.btn-learn-more-addon{
+  margin-left: 50%;
+  transform: translateX(-50%);
 }
