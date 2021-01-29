@@ -2035,6 +2035,30 @@ section {
   color: var(--primary-8);
   font-size: 110%;
 }
+/* hero section */
+.location-box{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin-top: 20px;
+  padding-right: 20px;
+}
+.location-box>h2>div{
+  font-size: 90%;
+}
+@media screen and (max-width: 500px){
+  .location-box{
+    margin-top: 10px;
+    justify-content: center;
+    padding-right: 0px;
+  }
+  .location-box>h2{
+      max-width: 220px;
+  }
+}
+/* end hero section */
+
+
 /* about us section */
 .middle-align{
   text-align: center;
@@ -2043,3 +2067,4 @@ section {
   margin-left: 50%;
   transform: translateX(-50%);
 }
+/* end about us section */
