@@ -16,14 +16,14 @@
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">Despre</a></li>
-          <li><a href="#">Program</a></li>
-          <li><a href="#">Parteneri</a></li>
+          <li class="active"><a href="#header">Home</a></li>
+          <li><a href="#about">Despre</a></li>
+          <li><a href="#pricing">Program</a></li>
+          <li><a href="#clients">Parteneri</a></li>
         </ul>
       </nav><!-- .nav-menu -->
 
-      <a href="#about" class="get-started-btn scrollto">Contact</a>
+      <a href="#contact" class="get-started-btn scrollto">Contact</a>
 
     </div>
   </header><!-- End Header -->
@@ -109,21 +109,14 @@
         </div>
 
         <div class="row content">
-          <div class="col-lg-6 pt-4 pt-lg-0">
-            <p>
+          <div class="col-lg-12 pt-4 pt-lg-0 ">
+            <p  class="middle-align">
               Unul dintre obiectivele Asociației Studenților la Matematică și Informatică este cel de a-i ajuta pe studenți să se dezvolte pe plan profesional.<br><br>
               Pentru atingerea acestui obiectiv realizăm anual târgul de internshipuri și joburi Cariere pentru a crea o punte de legătură între studenți și angajatorii din domeniul IT.
             </p>
-            <a href="#" class="btn-learn-more">Ceva link</a>
+            <a href="#" class="btn-learn-more btn-learn-more-addon" >Ceva link</a>
           </div>
-          <div class="col-lg-6">
-            <ul>
-              <li><i class="ri-briefcase-line"></i> Prezentări prin intermediul cărora reprezentații companiilor partenere aduc la cunoștință studenților despre ofertele de internshipuri și joburi part-time</li>
-              <li><i class="ri-building-line"></i> Standuri prin intermediul cărora studențiii intră in contact direct cu companiile partenere</li>
-              <li><i class="ri-computer-line"></i> Workshopuri cu scopul de a familiariza studenții atât cu tehnologiile și limbajele de programare folosite de partenerii noștri, cât și cu mediul de lucru
-              </li>
-            </ul>
-          </div>
+          
 
         </div>
 
@@ -148,30 +141,15 @@
             <div class="accordion-list">
               <ul>
                 <li>
-                  <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"><span>01</span> Non consectetur a erat nam at lectus urna duis? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                  <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
-                    <p>
-                      Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
-                    </p>
-                  </div>
+                  <strong class="strong-blue">Prezentări</strong> prin intermediul cărora reprezentații companiilor partenere aduc la cunoștință studenților despre ofertele de internshipuri și joburi part-time 
                 </li>
 
                 <li>
-                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed"><span>02</span> Feugiat scelerisque varius morbi enim nunc? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                  <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
-                    <p>
-                      Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
-                    </p>
-                  </div>
+                  <strong class="strong-blue">Standuri</strong>  prin intermediul cărora studențiii intră in contact direct cu companiile partenere 
                 </li>
 
                 <li>
-                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed"><span>03</span> Dolor sit amet consectetur adipiscing elit? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                  <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
-                    <p>
-                      Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
-                    </p>
-                  </div>
+                  <strong class="strong-blue">Workshopuri</strong>  cu scopul de a familiariza studenții atât cu tehnologiile și limbajele de programare folosite de partenerii noștri, cât și cu mediul de lucru
                 </li>
 
               </ul>
@@ -194,7 +172,7 @@
             <img src="assets/img/skills.png" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
-            <h3>Voluptatem dignissimos provident quasi corporis voluptates</h3>
+            <h3>Statistici Cariere v9.0</h3>
             <p class="font-italic">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
               magna aliqua.
@@ -203,30 +181,30 @@
             <div class="skills-content">
 
               <div class="progress">
-                <span class="skill">HTML <i class="val">100%</i></span>
+                <span class="skill">Studenti participanti <i class="val">620</i></span>
                 <div class="progress-bar-wrap">
                   <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
 
               <div class="progress">
-                <span class="skill">CSS <i class="val">90%</i></span>
+                <span class="skill">Companii <i class="val">31</i></span>
                 <div class="progress-bar-wrap">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                  <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
 
               <div class="progress">
-                <span class="skill">JavaScript <i class="val">75%</i></span>
+                <span class="skill">Standuri corporate <i class="val">24</i></span>
                 <div class="progress-bar-wrap">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                  <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
 
               <div class="progress">
-                <span class="skill">Photoshop <i class="val">55%</i></span>
+                <span class="skill">Conversatii purtate<i class="val"><img src="./assets/img/icons/infinity-solid.svg" style="width: 15px; height: 15px;" alt=""></i></span>
                 <div class="progress-bar-wrap">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                  <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
 
@@ -261,23 +239,6 @@
 
           </div>
       </section><!-- End Portfolio Section -->
-
-    <!-- ======= Cta Section ======= -->
-    <section id="cta" class="cta">
-      <div class="container" data-aos="zoom-in">
-
-        <div class="row">
-          <div class="col-lg-9 text-center text-lg-left">
-            <h3>Call To Action</h3>
-            <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
-          <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#">Call To Action</a>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End Cta Section -->
 
 
 
@@ -370,7 +331,7 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Pricing</h2>
+          <h2>Programul evenimentului</h2>
           <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div>
 
@@ -378,7 +339,7 @@
 
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
             <div class="box">
-              <h3>Free Plan</h3>
+              <h3>De pus programul evenimentului</h3>
               <h4><sup>$</sup>0<span>per month</span></h4>
               <ul>
                 <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
