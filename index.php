@@ -10,9 +10,9 @@
   <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center">
 
-      <h1 class="logo me-auto"><a href="/">Cariere</a></h1>
+      <!-- <h1 class="logo me-auto"><a href="/">Cariere</a></h1> -->
       <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      <a href="index.html" class="logo me-auto"><img src="assets/img/logo-bannerV10.png"  alt="" class="img-fluid"></a>
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
@@ -34,8 +34,11 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
-          <h1>Cariere <sub>v10.0</sub></h1>
-          <h2>Facultatea de Matematica si Informatica</h2>
+          <img src="assets/img/logo_romanaV10.png" alt="" class="img-fluid">
+          <div class="location-box">
+                <img src="assets/img/location.png" width="23px" height="23px" alt="" class="img-fluid">
+                <h2><div>Facultatea de Matematica si Informatica</div></h2>
+          </div>
           <div class="d-lg-flex">
             <a href="#about" class="btn-get-started scrollto">Get Started</a>
             <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox btn-watch-video" data-vbtype="video" data-autoplay="true"> Watch Video <i class="icofont-play-alt-2"></i></a>
