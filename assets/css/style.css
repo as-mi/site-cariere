@@ -870,7 +870,7 @@ section {
 
 .why-us .accordion-list li {
   padding: 20px;
-  background: var(--light);
+  background: #f6f9ff;
   border-radius: 4px;
 }
 
@@ -1256,7 +1256,7 @@ section {
   font-weight: 500;
 }
 
-.team .member span::after {
+/*.team .member span::after {
   content: '';
   position: absolute;
   display: block;
@@ -1265,6 +1265,24 @@ section {
   background: #cbd6e9;
   bottom: 0;
   left: 0;
+}*/
+
+.details-btn {
+  margin-top: 20px;
+  display: inline-block;
+  padding: 5px 35px;
+  border-radius: 50px;
+  color: var(--primary-1);
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Jost", sans-serif;
+  transition: 0.3s;
+  border: 1px solid var(--primary-1);
+}
+
+.details-btn:hover {
+  background: var(--primary-1);
+  color: var(--light);
 }
 
 .team .member p {
@@ -2068,3 +2086,58 @@ section {
   transform: translateX(-50%);
 }
 /* end about us section */
+
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+.about .content {
+  background-color: #f6f9ff;
+  padding: 40px;
+}
+
+.about h3 {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--primary-4);
+  text-transform: uppercase;
+}
+
+.about h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--primary-8);
+}
+
+.about p {
+  margin: 15px 0 30px 0;
+  line-height: 24px;
+}
+
+.about .btn-read-more {
+  line-height: 0;
+  padding: 13px 40px;
+  border-radius: 4px;
+  transition: 0.5s;
+  color: #fff;
+  background: var(--primary-10);
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.3);
+}
+
+.about .btn-read-more span {
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.about .btn-read-more i {
+  margin-left: 5px;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.about .btn-read-more:hover i {
+  transform: translateX(5px);
+}
+
+
