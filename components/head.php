@@ -27,4 +27,7 @@
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
 
+    <!-- Fontawesome -->
+    <link href="assets/fontawesome/css/all.css" rel="stylesheet">
+
 </head>
