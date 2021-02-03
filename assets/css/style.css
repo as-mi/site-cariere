@@ -34,8 +34,8 @@
   --primary-6: #81e378;
   --primary-9: #77d16f;
   --primary-10: #71c769;
-  --primary-3: #6AB663;
-  --primary-8: #579951;
+  --primary-3: #659460;
+  --primary-8: #436340;
   --primary-7: #343a40;
   --light: #fff;
   --light-2: #ddd;
@@ -207,7 +207,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: block;
   position: relative;
-  color: var(--light);
+  color: var(--dark-1);
   transition: 0.3s;
   font-size: 15px;
   letter-spacing: 0.5px;
@@ -216,7 +216,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: var(--primary-1);
+  color: var(--primary-2);
 }
 
 .nav-menu .drop-down ul {
@@ -229,7 +229,7 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0;
   visibility: hidden;
   padding: 10px 0;
-  background: var(--light);
+  background: var(--dark-1);
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
 }
@@ -300,7 +300,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Get Startet Button */
 .get-started-btn {
   margin-left: 25px;
-  color: var(--light);
+  color: var(--dark-1);
   border-radius: 50px;
   padding: 6px 25px 7px 25px;
   white-space: nowrap;

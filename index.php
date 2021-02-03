@@ -7,23 +7,23 @@
 <body>
 
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top ">
+  <header id="header" class="fixed-top bg-white">
     <div class="container d-flex align-items-center">
 
       <!-- <h1 class="logo me-auto"><a href="/">Cariere</a></h1> -->
       <!-- Uncomment below if you prefer to use an image logo -->
-      <a href="index.html" class="logo me-auto"><img src="assets/img/logo-bannerV10.png"  alt="" class="img-fluid"></a>
+      <a href="index.php" class="logo me-auto"><img src="assets/img/logo-bannerV10.png"  alt="" class="img-fluid"></a>
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
-          <li class="active"><a href="#header">Home</a></li>
+          <li class="active"><a href="#header">Acasă</a></li>
           <li><a href="#about">Despre</a></li>
-          <li><a href="#clients">Parteneri</a></li>
-          <li><a href="#pricing">Program</a></li>
+          <li><a href="#statistics">Statistici</a></li>
+          <li><a href="#partners">Parteneri</a></li>
         </ul>
       </nav><!-- .nav-menu -->
 
-      <a href="#contact" class="get-started-btn scrollto">Contact</a>
+      <a href="#program" class="get-started-btn scrollto">Program</a>
 
     </div>
   </header><!-- End Header -->
@@ -33,16 +33,24 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+              <h1>Cariere V10.0</h1>
+              <h2>We are team of talanted designers making websites with Bootstrap</h2>
+              <div class="d-lg-flex">
+                  <a href="#about" class="btn-get-started scrollto">Despre Cariere</a>
+                  <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox btn-watch-video vbox-item" data-vbtype="video" data-autoplay="true"> Trimite Feedback <i class="icofont-play-alt-2"></i></a>
+              </div>
+          </div>
+        <!--<div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
           <img src="assets/img/logo_romanaV10.png" alt="" class="img-fluid">
           <div class="location-box" style="justify-content: center">
-                <!--<h2><span class="fas fa-location-arrow"></span> &nbsp;Online</h2>-->
+                <h2><span class="fas fa-location-arrow"></span> &nbsp;Online</h2>
           </div>
           <div class="d-lg-flex">
             <a href="#about" class="btn-get-started scrollto">Despre eveniment</a>
-            <!--<a href="#" class="btn-watch-video"> Trimite Feedback</a>-->
+            <a href="#" class="btn-watch-video"> Trimite Feedback</a>
           </div>
-        </div>
+        </div>-->
         <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
           <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
         </div>
@@ -59,7 +67,7 @@
         <use xlink:href="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)">
       </g>
       <g class="wave3">
-        <use xlink:href="#wave-path" x="50" y="9" fill="#fff">
+        <use xlink:href="#wave-path" x="50" y="9" fill="#f8f9fa">
       </g>
     </svg>
 
@@ -68,7 +76,7 @@
   <main id="main">
 
     <!-- ======= clients Section ======= -->
-    <section id="top-clients" class="top-clients bg-white">
+    <section id="top-clients" class="top-clients bg-light" style="padding: 5px 0">
       <div class="container">
 
         <div class="row" data-aos="zoom-in">
@@ -93,11 +101,14 @@
       <section id="about" class="about">
 
           <div class="container" data-aos="fade-up">
+              <div class="section-title">
+                  <h2>Despre Cariere</h2>
+              </div>
               <div class="row gx-0">
 
                   <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
                       <div class="content">
-                          <h2>Despre Cariere</h2>
+                          <h2>Obiective</h2>
                           <p>
                               Unul dintre obiectivele Asociației Studenților la Matematică și Informatică este cel de a-i ajuta pe studenți să se dezvolte pe plan profesional.
                               <br><br>
@@ -152,7 +163,7 @@
 
 
     <!-- ======= Skills Section ======= -->
-    <section id="skills" class="skills">
+    <section id="statistics" class="skills">
       <div class="container" data-aos="fade-up">
 
         <div class="row">
@@ -205,7 +216,7 @@
     </section><!-- End Skills Section -->
 
       <!-- ======= Portfolio Section ======= -->
-      <section id="team" class="team section-bg">
+      <section id="partners" class="team section-bg">
           <div class="container" data-aos="zoom-in">
               <div class="section-title">
                   <h2>Partenerii noștii</h2>
@@ -216,18 +227,24 @@
 
                   <?php foreach($companies as $company): ?>
                       <?php $company_details = get_company_details($company); ?>
-                      <div class="col-lg-5">
+                      <div class="col-lg-6 pt-4">
                           <div class="member d-flex align-items-start" style="padding-bottom: 40px" data-aos="zoom-in" data-aos-delay="100">
                               <div style="width:180px; padding-top:10px">
                                   <a href="details.php?company=<?php echo $company_details['id']; ?>">
                                       <img src="<?php echo $company_details['logo']; ?>" class="img-fluid">
                                   </a>
                               </div>
-                              <div class="member-info">
+                              <div class="member-info pt-3">
                                   <a href="details.php?company=<?php echo $company_details['id']; ?>"><h4><?php echo $company_details['name']; ?></h4></a>
                                   <span><?php echo $company_details['category']; ?></span>
-                                  <?php if($company_details["type"]=="gold"): ?>
-                                  <span style="color: orange"><i class="fas fa-medal"></i>&nbsp; Partener Gold</span>
+                                  <?php if($company_details["type"]=="platinum"): ?>
+                                    <span><i class="fas fa-medal" style="color: #5c636a">1</i>&nbsp; Partener Platinum</span>
+                                  <?php elseif($company_details["type"]=="gold"): ?>
+                                      <span ><i class="fas fa-medal" style="color: gold">2</i>&nbsp; Partener Gold</span>
+                                  <?php elseif($company_details["type"]=="silver"): ?>
+                                      <span ><i class="fas fa-medal" style="color: silver">3</i>&nbsp; Partener Silver</span>
+                                  <?php elseif($company_details["type"]=="bronze"): ?>
+                                      <span ><i class="fas fa-medal" style="color: sandybrown">4</i>&nbsp; Partener Bronze</span>
                                   <?php endif; ?>
                               </div>
                           </div>
@@ -240,7 +257,7 @@
       </section><!-- End Portfolio Section -->
 
     <!-- ======= Pricing Section ======= -->
-    <section id="pricing" class="pricing">
+    <section id="program" class="pricing">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
