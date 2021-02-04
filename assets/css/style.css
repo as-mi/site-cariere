@@ -439,7 +439,8 @@ h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
   position: relative;
   padding-bottom: 0!important;
-  background: var(--primary-3);
+  /*background: var(--primary-3);*/
+  background: rgb(2,6,0);
 }
 
 #hero .container {
@@ -470,12 +471,16 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
   transition: 0.5s;
   margin: 10px 0 0 0;
-  color: var(--light);
-  background: var(--primary-1);
+  /*color: var(--light);*/
+  /*background: var(--primary-1);*/
+  color: var(--dark-1);
+  background: var(--light);
 }
 
 #hero .btn-get-started:hover {
-  background: var(--primary-4);
+  /*background: var(--primary-4);*/
+  color: var(--dark-2);
+  background: var(--light-3);
 }
 
 #hero .btn-watch-video {
