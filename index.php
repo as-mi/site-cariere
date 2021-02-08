@@ -10,7 +10,7 @@
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
 
-      <a href="index.php" class="logo me-auto"><img src="images/cariere-small.png" class="img-fluid"></a>
+      <a href="index.php" class="logo me-auto"><img src="images/cariere-small-white.png" class="img-fluid"></a>
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
@@ -30,15 +30,15 @@
 
     <div class="container">
       <div class="row">
-          <div class="col-lg-6 d-flex flex-column justify-content-center pt-lg-0 order-1 order-lg-1 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
-              <div>
+          <div class="col-lg-6 d-flex flex-column justify-content-center pt-lg-0 order-1 order-lg-1 aos-init aos-animate">
+              <div data-aos="fade-right" data-aos-delay="200">
                   <img src="images/cariere-white.png" style="width: 350px" alt="" class="img-fluid">
                   <br>
                   <a href="#about" class="btn-get-started scrollto mt-5">Despre Cariere</a>
                   <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox btn-watch-video vbox-item mb-5" data-vbtype="video" data-autoplay="true"> Vezi video <i class="icofont-play-alt-2"></i></a>
               </div>
           </div>
-        <div class="col-lg-6 order-2 order-lg-2 hero-img mt-5" data-aos="zoom-in" data-aos-delay="200">
+        <div class="col-lg-6 order-2 order-lg-2 hero-img mt-5" data-aos="fade-up" data-aos-delay="600">
           <div class="wsize1 bor1" style="height: 450px">
 				<div class="panel">
 					<i class="fa fa-circle" style="color:rgb(237,106,94);margin-left: 15px"></i>
@@ -47,8 +47,6 @@
 				</div>
 				<div class="terminal">
 					<div id="history">
-						Cariere> Cariere.exe<br>
-						CARIERE v10 Loading... [####################] 100%<br>
 					</div>
 					<div class="line">
 						<span id="path">Cariere>&nbsp;</span>

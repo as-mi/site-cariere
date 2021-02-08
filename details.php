@@ -16,10 +16,7 @@
 <!-- ======= Header ======= -->
 <header id="header" class="fixed-top header-inner-pages bg-white">
     <div class="container d-flex align-items-center">
-
-        <!--<h1 class="logo me-auto"><a href="/">Cariere v10.0</a></h1>-->
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <a href="index.php" class="logo me-auto"><img src="assets/img/logo-bannerV10.png"  alt="" class="img-fluid"></a>
+        <a href="index.php" class="logo me-auto"><img src="images/cariere-small.png"  alt="" class="img-fluid"></a>
     </div>
 </header><!-- End Header -->
 
@@ -27,7 +24,7 @@
 
     <!-- ======= Breadcrumbs ======= -->
     <section id="breadcrumbs" class="breadcrumbs" style="margin-top:60px">
-        <div class="container">
+        <div class="container pt-3">
             <ol>
                 <li><a href="/">Acasă</a></li>
                 <li><?php echo $company_details["name"]; ?></li>
