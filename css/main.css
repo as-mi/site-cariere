@@ -745,3 +745,28 @@ Primary use:
   caret-color: white;
   outline: none;
 }
+
+/**/
+.logo-wrapper{
+  padding-left: 80px;
+  padding-right: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 580px){
+  .logo-wrapper{
+    padding: 0;
+    display: block;
+    text-align: center;
+  }
+  .logo-left>img{
+    width: 180px!important;
+    margin-top: 40px;
+    margin-right: 10px;
+  }
+  .logo-right>img{
+    width: 100px!important;
+    margin-top: 40px;
+  }
+}
