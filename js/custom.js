@@ -3,6 +3,7 @@ $('.js-tilt').tilt({
 })
 
 $(function() {
+    $('#input').val("help");
     $('.terminal').on('click', function(){
         $('#input').focus();
     });

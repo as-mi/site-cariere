@@ -279,11 +279,11 @@ Primary use:
 }
 
 .flip-clock-divider.days::after {
-  content: "days";
+  content: "zile";
 }
 
 .flip-clock-divider.hours::after {
-  content: "hrs";
+  content: "ore";
 }
 
 .flip-clock-divider.minutes::after {

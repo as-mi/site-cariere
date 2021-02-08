@@ -92,6 +92,7 @@
 
     var dictionary = {
         en: { days: 'days',   hours: 'hours',  min: 'minutes',  sec: 'seconds' },
+        ro: { days: 'zile',   hours: 'ore',  min: 'minute',  sec: 'secunde' },
         ru: { days: 'дней',   hours: 'часов',  min: 'минут',    sec: 'секунд' },
         ua: { days: 'днiв',   hours: 'годин',  min: 'хвилин',   sec: 'секунд' },
         de: { days: 'Tag',    hours: 'Uhr',    min: 'Minuten',  sec: 'Secunden' },
