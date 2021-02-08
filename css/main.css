@@ -704,14 +704,26 @@ Primary use:
 
 }
 
+.panel{
+  width: 100%;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(247,239,241);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px
+}
+
 .terminal{
-  background: black;
+  background: rgba(0,0,0,0.8);
   color: rgb(91,191,65);
   font: 1rem Inconsolata, monospace;
   text-shadow: 0 0 5px black;
   padding: 10px;
   height: 300px;
   overflow: scroll;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 
 .line{
@@ -728,7 +740,7 @@ Primary use:
   display:table-cell;
   width:100%;
   border: none;
-  background: black;
+  background: transparent;
   color: rgb(91,191,65);
   caret-color: white;
   outline: none;
