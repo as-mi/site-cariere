@@ -12,7 +12,7 @@
 
       <!-- <h1 class="logo me-auto"><a href="/">Cariere</a></h1> -->
       <!-- Uncomment below if you prefer to use an image logo -->
-      <a href="index.php" class="logo me-auto"><img src="assets/img/logo-bannerV10.png"  alt="" class="img-fluid"></a>
+      <a href="index.php" class="logo me-auto"><img src="images/cariere.png" width="100px"  alt="" class="img-fluid"></a>
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
@@ -29,29 +29,18 @@
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex flex-column align-items-center bg-black">
+  <section id="hero" class="d-flex flex-column align-items-center" style="background-image: url('images/background-cariere.jpg')">
 
     <div class="container">
       <div class="row">
           <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
-              <!--<h1>Cariere V10.0</h1>-->
-              <img src="assets/img/cariere-v10.png" style="width: 290px" alt="" class="img-fluid">
-              <!--<h2>We are team of talanted designers making websites with Bootstrap</h2>-->
+              <img src="images/cariere-white.png" style="width: 290px" alt="" class="img-fluid">
+
               <div class="d-lg-flex mt-5">
                   <a href="#about" class="btn-get-started scrollto">Despre Cariere</a>
-                  <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox btn-watch-video vbox-item" data-vbtype="video" data-autoplay="true"> Trimite Feedback <i class="icofont-play-alt-2"></i></a>
+                  <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox btn-watch-video vbox-item" data-vbtype="video" data-autoplay="true"> Vezi video <i class="icofont-play-alt-2"></i></a>
               </div>
           </div>
-        <!--<div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
-          <img src="assets/img/logo_romanaV10.png" alt="" class="img-fluid">
-          <div class="location-box" style="justify-content: center">
-                <h2><span class="fas fa-location-arrow"></span> &nbsp;Online</h2>
-          </div>
-          <div class="d-lg-flex">
-            <a href="#about" class="btn-get-started scrollto">Despre eveniment</a>
-            <a href="#" class="btn-watch-video"> Trimite Feedback</a>
-          </div>
-        </div>-->
         <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
           <img src="assets/img/cariere-terminal.png" class="img-fluid animated" alt="">
         </div>
@@ -83,15 +72,21 @@
         <div class="row" data-aos="zoom-in">
 
           <div class="col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img style="height: 100px;cursor:pointer;" src="assets/img/logo_asmi.png" class="img-fluid" alt="">
+              <a href="#">
+                  <img src="images/asmi-long.png" class="img-fluid" alt="">
+              </a>
           </div>
 
           <div class="col-md-4 col-6 d-flex align-items-center justify-content-center">
-              <img style="cursor: pointer" src="assets/img/fmi-logo.png" class="img-fluid" alt="">
+              <a href="#">
+                  <img src="images/fmi1.png" class="img-fluid" alt="">
+              </a>
           </div>
 
           <div class="col-md-4 col-6 d-flex align-items-center justify-content-center">
-              <img style="height: 100px;cursor: pointer" src="assets/img/logo-unibuc.png" class="img-fluid" alt="">
+              <a href="#">
+                  <img src="images/logo-unibuc.png" class="img-fluid" alt="">
+              </a>
           </div>
 
         </div>
@@ -119,7 +114,7 @@
                   </div>
 
                   <div class="col-lg-6 d-flex align-items-center" style="justify-content: center" data-aos="zoom-out" data-aos-delay="200">
-                      <img style="height: 400px" src="assets/img/about-us-1.png" class="img-fluid" alt="">
+                      <img style="height: 400px" src="images/about-us-1.png" class="img-fluid" alt="">
                   </div>
 
               </div>
@@ -133,7 +128,7 @@
 
         <div class="row">
 
-          <div class="col-lg-5 align-items-stretch order-2 order-lg-1 img" style='background-image: url("assets/img/why-us.png");' data-aos="zoom-in" data-aos-delay="150">&nbsp;</div>
+          <div class="col-lg-5 align-items-stretch order-2 order-lg-1 img" style='background-image: url("images/why-us.png");' data-aos="zoom-in" data-aos-delay="150">&nbsp;</div>
           <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-1 order-lg-2">
 
             <div class="content">
@@ -199,7 +194,7 @@
               </div>
 
               <div class="progress">
-                <span class="skill">Conversatii purtate<i class="val"><img src="./assets/img/icons/infinity-solid.svg" style="width: 15px; height: 15px;" alt=""></i></span>
+                <span class="skill">Conversatii purtate<i class="val"><img src="assets/icons/infinity-solid.svg" style="width: 15px; height: 15px;" alt=""></i></span>
                 <div class="progress-bar-wrap">
                   <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
@@ -209,7 +204,7 @@
 
           </div>
             <div class="col-lg-6 d-flex align-items-center" data-aos="fade-left" data-aos-delay="100">
-                <img src="assets/img/skills.png" class="img-fluid" alt="">
+                <img src="images/skills.png" class="img-fluid" alt="">
             </div>
         </div>
 
