@@ -7,12 +7,10 @@
 <body>
 
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top bg-white">
+  <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
 
-      <!-- <h1 class="logo me-auto"><a href="/">Cariere</a></h1> -->
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <a href="index.php" class="logo me-auto"><img src="images/cariere.png" width="100px"  alt="" class="img-fluid"></a>
+      <a href="index.php" class="logo me-auto"><img src="images/cariere-small.png" class="img-fluid"></a>
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
@@ -20,47 +18,62 @@
           <li><a href="#about">Despre</a></li>
           <li><a href="#statistics">Statistici</a></li>
           <li><a href="#partners">Parteneri</a></li>
+          <li><a href="#program">Program</a></li>
         </ul>
       </nav><!-- .nav-menu -->
-
-      <a href="#program" class="get-started-btn scrollto">Program</a>
 
     </div>
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex flex-column align-items-center" style="background-image: url('images/background-cariere.jpg')">
+  <section id="hero" class="d-flex flex-column align-items-center">
 
     <div class="container">
       <div class="row">
-          <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
-              <img src="images/cariere-white.png" style="width: 290px" alt="" class="img-fluid">
-
-              <div class="d-lg-flex mt-5">
-                  <a href="#about" class="btn-get-started scrollto">Despre Cariere</a>
-                  <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox btn-watch-video vbox-item" data-vbtype="video" data-autoplay="true"> Vezi video <i class="icofont-play-alt-2"></i></a>
+          <div class="col-lg-6 d-flex flex-column justify-content-center pt-lg-0 order-1 order-lg-1 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+              <div>
+                  <img src="images/cariere-white.png" style="width: 350px" alt="" class="img-fluid">
+                  <br>
+                  <a href="#about" class="btn-get-started scrollto mt-5">Despre Cariere</a>
+                  <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox btn-watch-video vbox-item mb-5" data-vbtype="video" data-autoplay="true"> Vezi video <i class="icofont-play-alt-2"></i></a>
               </div>
           </div>
-        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
-          <img src="assets/img/cariere-terminal.png" class="img-fluid animated" alt="">
+        <div class="col-lg-6 order-2 order-lg-2 hero-img mt-5" data-aos="zoom-in" data-aos-delay="200">
+          <div class="wsize1 bor1" style="height: 450px">
+				<div class="panel">
+					<i class="fa fa-circle" style="color:rgb(237,106,94);margin-left: 15px"></i>
+					<i class="fa fa-circle" style="color:rgb(245,189,79);margin-left: 5px"></i>
+					<i class="fa fa-circle" style="color:rgb(98,198,85);margin-left: 5px"></i>
+				</div>
+				<div class="terminal">
+					<div id="history">
+						Cariere> Cariere.exe<br>
+						CARIERE v10 Loading... [####################] 100%<br>
+					</div>
+					<div class="line">
+						<span id="path">Cariere>&nbsp;</span>
+						<input type="text" id="input" autofocus>
+					</div>
+				</div>
+			</div>
         </div>
       </div>
-    </div>
-    <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
-      <defs>
-        <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
-      </defs>
-      <g class="wave1">
-        <use xlink:href="#wave-path" x="50" y="3" fill="rgba(255,255,255, .1)">
-      </g>
-      <g class="wave2">
-        <use xlink:href="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)">
-      </g>
-      <g class="wave3">
-        <use xlink:href="#wave-path" x="50" y="9" fill="#f8f9fa">
-      </g>
-    </svg>
 
+    </div>
+    <!--<svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
+        <defs>
+            <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+        </defs>
+        <g class="wave1">
+            <use xlink:href="#wave-path" x="50" y="3" fill="rgba(255,255,255, .1)">
+        </g>
+        <g class="wave2">
+            <use xlink:href="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)">
+        </g>
+        <g class="wave3">
+            <use xlink:href="#wave-path" x="50" y="9" fill="#f8f9fa">
+        </g>
+    </svg>-->
   </section><!-- End Hero -->
 
   <main id="main">
@@ -71,20 +84,20 @@
 
         <div class="row" data-aos="zoom-in">
 
-          <div class="col-md-4 col-6 d-flex align-items-center justify-content-center">
-              <a href="#">
+          <div class="col-4 d-flex align-items-center justify-content-center">
+              <a href="https://www.asmi.ro/" target="_blank">
                   <img src="images/asmi-long.png" class="img-fluid" alt="">
               </a>
           </div>
 
-          <div class="col-md-4 col-6 d-flex align-items-center justify-content-center">
-              <a href="#">
+          <div class="col-4 d-flex align-items-center justify-content-center">
+              <a href="https://fmi.unibuc.ro/" target="_blank">
                   <img src="images/fmi1.png" class="img-fluid" alt="">
               </a>
           </div>
 
-          <div class="col-md-4 col-6 d-flex align-items-center justify-content-center">
-              <a href="#">
+          <div class="col-4 d-flex align-items-center justify-content-center">
+              <a href="https://unibuc.ro/" target="_blank">
                   <img src="images/logo-unibuc.png" class="img-fluid" alt="">
               </a>
           </div>
@@ -106,9 +119,7 @@
                       <div class="content">
                           <h2>Obiective</h2>
                           <p>
-                              Unul dintre obiectivele Asociației Studenților la Matematică și Informatică este cel de a-i ajuta pe studenți să se dezvolte pe plan profesional.
-                              <br><br>
-                              Pentru atingerea acestui obiectiv realizăm anual târgul de internshipuri și joburi Cariere pentru a crea o punte de legătură între studenți și angajatorii din domeniul IT.
+                              Cariere este un târg de joburi și internship-uri care oferă un sprijin în dezvoltarea pe plan profesional a studenților, realizând o legătura între aceștia (participanți) și o parte din cele mai cunoscute companii din piața IT din Romania
                           </p>
                       </div>
                   </div>
@@ -137,13 +148,16 @@
             <div class="accordion-list">
               <ul>
                 <li>
-                  <strong class="strong-blue"><span class="fas fa-book-open"></span>Prezentări</strong> prin intermediul cărora reprezentații companiilor partenere aduc la cunoștință studenților despre ofertele de internshipuri și joburi part-time
+                  <strong class="strong-blue"><span class="fas fa-book-open"></span>Prezentări</strong> de 30 de minute ale companiilor participante unde puteti afla detalii despre oportunitalite oferite
                 </li>
                 <li>
-                  <strong class="strong-blue"><span class="fas fa-desktop"></span>Standuri</strong>  prin intermediul cărora studențiii intră in contact direct cu companiile partenere
+                  <strong class="strong-blue"><span class="fas fa-desktop"></span>Sesiuni</strong> de networking unde poti intra in contact direct cu firmele prezente pentru a primi raspunsuri la toate intrebarile tale
                 </li>
                 <li>
-                  <strong class="strong-blue"><span class="fas fa-code"></span>Workshopuri</strong>  cu scopul de a familiariza studenții atât cu tehnologiile și limbajele de programare folosite de partenerii noștri, cât și cu mediul de lucru
+                  <strong class="strong-blue"><span class="fas fa-code"></span>Workshop-uri</strong>  menite sa-ti dezvolte atat cunostintele tehnice, cat si abilitatile de comunicare
+                </li>
+                <li>
+                    <strong class="strong-blue"><span class="fas fa-laptop"></span>Concursuri</strong> pe toata durata evenimentului
                 </li>
 
               </ul>
@@ -283,12 +297,12 @@
                 <div class="box">
                     <h3>4 Martie</h3>
                     <ul>
-                        <li class="na"><i class="bx bx-x"></i> <span>American Greetings - 10:30-11:20</span></li>
-                        <li class="na"><i class="bx bx-x"></i> <span>Deloitte - 10:30-11:20</span></li>
-                        <li class="na"><i class="bx bx-x"></i> <span>Pauză de masă - 10:30-11:20</span></li>
-                        <li class="na"><i class="bx bx-x"></i> <span>Tremend - 10:30-11:20</span></li>
-                        <li class="na"><i class="bx bx-x"></i> <span>Ericsson - 10:30-11:20</span></li>
-                        <li><i class="bx bx-timer text-danger"></i> Autodesk - 10:30-11:20</li>
+                        <li><i class="bx bx-time-five"></i> <span>American Greetings - 10:30-11:20</span></li>
+                        <li><i class="bx bx-time-five"></i> <span>Deloitte - 10:30-11:20</span></li>
+                        <li><i class="bx bx-time-five"></i> <span>Pauză de masă - 10:30-11:20</span></li>
+                        <li><i class="bx bx-time-five"></i> <span>Tremend - 10:30-11:20</span></li>
+                        <li><i class="bx bx-time-five"></i> <span>Ericsson - 10:30-11:20</span></li>
+                        <li><i class="bx bx-time-five"></i> Autodesk - 10:30-11:20</li>
                         <li><i class="bx bx-time-five"></i> Accenture - 10:30-11:20</li>
                         <li><i class="bx bx-time-five"></i> AMIQ - 10:30-11:20</li>
                     </ul>
@@ -298,12 +312,12 @@
                 <div class="box">
                     <h3>5 Martie</h3>
                     <ul>
-                        <li class="na"><i class="bx bx-x"></i> <span>American Greetings - 10:30-11:20</span></li>
-                        <li class="na"><i class="bx bx-x"></i> <span>Deloitte - 10:30-11:20</span></li>
-                        <li class="na"><i class="bx bx-x"></i> <span>Pauză de masă - 10:30-11:20</span></li>
-                        <li class="na"><i class="bx bx-x"></i> <span>Tremend - 10:30-11:20</span></li>
-                        <li class="na"><i class="bx bx-x"></i> <span>Ericsson - 10:30-11:20</span></li>
-                        <li><i class="bx bx-timer text-danger"></i> Autodesk - 10:30-11:20</li>
+                        <li><i class="bx bx-time-five"></i> <span>American Greetings - 10:30-11:20</span></li>
+                        <li><i class="bx bx-time-five"></i> <span>Deloitte - 10:30-11:20</span></li>
+                        <li><i class="bx bx-time-five"></i> <span>Pauză de masă - 10:30-11:20</span></li>
+                        <li><i class="bx bx-time-five"></i> <span>Tremend - 10:30-11:20</span></li>
+                        <li><i class="bx bx-time-five"></i> <span>Ericsson - 10:30-11:20</span></li>
+                        <li><i class="bx bx-time-five"></i> Autodesk - 10:30-11:20</li>
                         <li><i class="bx bx-time-five"></i> Accenture - 10:30-11:20</li>
                         <li><i class="bx bx-time-five"></i> AMIQ - 10:30-11:20</li>
                     </ul>
@@ -324,7 +338,6 @@
   <?php include_once "components/footer.php"; ?>
 
   <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a>
-  <!--<div id="preloader"></div>-->
 
   <?php include_once "components/scripts.php"; ?>
 
