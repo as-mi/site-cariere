@@ -26,14 +26,14 @@
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex flex-column align-items-center">
+  <section id="hero" class="d-flex flex-column align-items-center" style="min-height: 100vh">
 
     <div class="container">
       <div class="row">
           <div class="col-lg-6 d-flex flex-column justify-content-center pt-lg-0 order-1 order-lg-1 aos-init aos-animate">
               <div data-aos="fade-right" data-aos-delay="200">
                   <img src="images/cariere-white.png" style="width: 350px" alt="" class="img-fluid">
-                  <br>
+                  <br><br>
                   <a href="#about" class="btn-get-started scrollto mt-5">Despre Cariere</a>
                   <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox btn-watch-video vbox-item mb-5" data-vbtype="video" data-autoplay="true"> Vezi video <i class="icofont-play-alt-2"></i></a>
               </div>
@@ -83,20 +83,20 @@
         <div class="row" data-aos="zoom-in">
 
           <div class="col-4 d-flex align-items-center justify-content-center">
-              <a href="https://www.asmi.ro/" target="_blank">
-                  <img src="images/asmi-long.png" class="img-fluid" alt="">
+              <a href="https://www.asmi.ro/"  target="_blank">
+                  <img src="images/asmi-long.png" width="300px" class="img-fluid" alt="">
               </a>
           </div>
 
           <div class="col-4 d-flex align-items-center justify-content-center">
               <a href="https://fmi.unibuc.ro/" target="_blank">
-                  <img src="images/fmi1.png" class="img-fluid" alt="">
+                  <img src="images/FMI2.png" width="450px" class="img-fluid" alt="">
               </a>
           </div>
 
           <div class="col-4 d-flex align-items-center justify-content-center">
               <a href="https://unibuc.ro/" target="_blank">
-                  <img src="images/logo-unibuc.png" class="img-fluid" alt="">
+                  <img src="images/logo-unibuc.png" width="200px" class="img-fluid" alt="">
               </a>
           </div>
 
@@ -270,7 +270,7 @@
 
         <div class="section-title">
           <h2>Programul evenimentului</h2>
-          <p></p>
+            <p>Alătură-te prezentării <a href="#">AMIQ</a></p>
         </div>
 
         <div class="row">
