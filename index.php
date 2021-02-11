@@ -299,12 +299,6 @@
         </div>
 
         <div class="row">
-
-            <div class="section-title">
-                <h2>Programul evenimentului</h2>
-                <p></p>
-            </div>
-
             <div class="row">
                 <?php $programs = glob("programs/*.json"); ?>
                 <?php foreach ($programs as $program): ?>
