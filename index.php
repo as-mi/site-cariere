@@ -27,37 +27,36 @@
     </div>
 </header><!-- End Header -->
 
-<!-- ======= Hero Section ======= -->
-<section id="hero" class="d-flex flex-column align-items-center">
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column align-items-center" style="min-height: 100vh">
 
     <div class="container">
-        <div class="row">
-            <div class="col-lg-6 d-flex flex-column justify-content-center pt-lg-0 order-1 order-lg-1 aos-init aos-animate">
-                <div data-aos="fade-right" data-aos-delay="200">
-                    <img src="images/cariere-white.png" style="width: 350px" alt="" class="img-fluid">
-                    <br>
-                    <a href="#about" class="btn-get-started scrollto mt-5">Despre Cariere</a>
-                    <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox btn-watch-video vbox-item mb-5"
-                       data-vbtype="video" data-autoplay="true"> Vezi video <i class="icofont-play-alt-2"></i></a>
-                </div>
-            </div>
-            <div class="col-lg-6 order-2 order-lg-2 hero-img mt-5" data-aos="fade-up" data-aos-delay="600">
-                <div class="wsize1 bor1" style="height: 450px">
-                    <div class="panel">
-                        <i class="fa fa-circle" style="color:rgb(237,106,94);margin-left: 15px"></i>
-                        <i class="fa fa-circle" style="color:rgb(245,189,79);margin-left: 5px"></i>
-                        <i class="fa fa-circle" style="color:rgb(98,198,85);margin-left: 5px"></i>
-                    </div>
-                    <div class="terminal">
-                        <div id="history">
-                        </div>
-                        <div class="line">
-                            <span id="path">Cariere>&nbsp;</span>
-                            <input type="text" id="input" autofocus>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="row">
+          <div class="col-lg-6 d-flex flex-column justify-content-center pt-lg-0 order-1 order-lg-1 aos-init aos-animate">
+              <div data-aos="fade-right" data-aos-delay="200">
+                  <img src="images/cariere-white.png" style="width: 350px" alt="" class="img-fluid">
+                  <br><br>
+                  <a href="#about" class="btn-get-started scrollto mt-5">Despre Cariere</a>
+                  <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox btn-watch-video vbox-item mb-5" data-vbtype="video" data-autoplay="true"> Vezi video <i class="icofont-play-alt-2"></i></a>
+              </div>
+          </div>
+        <div class="col-lg-6 order-2 order-lg-2 hero-img mt-5" data-aos="fade-up" data-aos-delay="600">
+          <div class="wsize1 bor1" style="height: 450px">
+				<div class="panel">
+					<i class="fa fa-circle" style="color:rgb(237,106,94);margin-left: 15px"></i>
+					<i class="fa fa-circle" style="color:rgb(245,189,79);margin-left: 5px"></i>
+					<i class="fa fa-circle" style="color:rgb(98,198,85);margin-left: 5px"></i>
+				</div>
+				<div class="terminal">
+					<div id="history">
+					</div>
+					<div class="line">
+						<span id="path">Cariere>&nbsp;</span>
+						<input type="text" id="input" autofocus>
+					</div>
+				</div>
+			</div>
         </div>
 
     </div>
@@ -85,23 +84,24 @@
 
             <div class="row" data-aos="zoom-in">
 
-                <div class="col-4 d-flex align-items-center justify-content-center">
-                    <a href="https://www.asmi.ro/" target="_blank">
-                        <img src="images/asmi-long.png" class="img-fluid" alt="">
-                    </a>
-                </div>
 
-                <div class="col-4 d-flex align-items-center justify-content-center">
-                    <a href="https://fmi.unibuc.ro/" target="_blank">
-                        <img src="images/fmi1.png" class="img-fluid" alt="">
-                    </a>
-                </div>
+          <div class="col-4 d-flex align-items-center justify-content-center">
+              <a href="https://www.asmi.ro/"  target="_blank">
+                  <img src="images/asmi-long.png" width="300px" class="img-fluid" alt="">
+              </a>
+          </div>
 
-                <div class="col-4 d-flex align-items-center justify-content-center">
-                    <a href="https://unibuc.ro/" target="_blank">
-                        <img src="images/logo-unibuc.png" class="img-fluid" alt="">
-                    </a>
-                </div>
+          <div class="col-4 d-flex align-items-center justify-content-center">
+              <a href="https://fmi.unibuc.ro/" target="_blank">
+                  <img src="images/FMI2.png" width="450px" class="img-fluid" alt="">
+              </a>
+          </div>
+
+          <div class="col-4 d-flex align-items-center justify-content-center">
+              <a href="https://unibuc.ro/" target="_blank">
+                  <img src="images/logo-unibuc.png" width="200px" class="img-fluid" alt="">
+              </a>
+              </div>
 
             </div>
 
@@ -291,7 +291,14 @@
 
     <!-- ======= Pricing Section ======= -->
     <section id="program" class="pricing">
-        <div class="container" data-aos="fade-up">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Programul evenimentului</h2>
+            <p>Alătură-te prezentării <a href="#">AMIQ</a></p>
+        </div>
+
+        <div class="row">
 
             <div class="section-title">
                 <h2>Programul evenimentului</h2>
