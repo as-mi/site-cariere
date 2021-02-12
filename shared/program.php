@@ -25,9 +25,9 @@
 
     function get_event_draw_decision($program_details, $event) {
         $format_wrapper = array(
-            '<li class="na"><i class="bx bx-x"></i><a href="details.php?program=%s"><span>%s</span></a></li>',
-            '<li><i class="bx bx-timer text-danger"></i><a href="details.php?program=%s"><span>%s</span></a></li>',
-            '<li><i class="bx bx-time-five"></i><a href="details.php?program=%s"><span>%s</span></a></li>'
+            '<li class="na"><i class="bx bx-x"></i><a href="%s"><span>%s</span></a></li>',
+            '<li><i class="bx bx-timer text-danger"></i><a href="%s"><span>%s</span></a></li>',
+            '<li><i class="bx bx-time-five"></i><a href="%s"><span>%s</span></a></li>'
         );
 
         $format_index = $program_details['date_case'];

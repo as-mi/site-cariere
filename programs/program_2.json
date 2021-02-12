@@ -1,12 +1,12 @@
 {
   "id": "prg-1",
-  "date" : "2021-02-10",
+  "date" : "2021-02-12",
   "url": "https://atta.systems/careers",
   "events": [
     {
       "title": "American Greetings",
       "start": "08:30",
-      "end" :  "19:54",
+      "end" :  "09:40",
       "url" : "test"
     },
     {
@@ -17,8 +17,8 @@
     },
     {
       "title": "Pauză de masă",
-      "start": "19:20",
-      "end" :  "19:21",
+      "start": "15:00",
+      "end" :  "16:00",
       "url" : "test"
     },
     {
