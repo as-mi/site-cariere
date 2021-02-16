@@ -89,6 +89,7 @@ function execCommand(input){
     if(out!==false && out!==undefined)
         $('#history').append(out+'<br>');
     $('#input').val('');
+    $('.terminal').scrollTop($('.terminal')[0].scrollHeight);
 }
 
 function cariereExe(){
