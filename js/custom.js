@@ -60,21 +60,10 @@ let directory = {
             "type": "directory",
             "sub": [
                 {
-                    "name": "spoiler",
+                    "name": "credits",
                     "type": "directory",
                     "sub": [
-                        {
-                            "name": "stagii_pe_bune",
-                            "type": "application",
-                            "action": openStagii
-                        },
-                        {
-                            "name": "credits",
-                            "type": "directory",
-                            "sub": [
-                                "Darius Buhai"
-                            ]
-                        }
+                        "Darius Buhai"
                     ]
                 }
             ]
