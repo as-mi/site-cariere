@@ -441,8 +441,7 @@ h1, h2, h3, h4, h5, h6 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /*background: var(--primary-3);*/
-  /*background: rgb(2,6,0);*/
+  background-color: black;
 }
 
 #hero .container {
