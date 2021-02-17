@@ -40,8 +40,16 @@ let directory = {
             "name": "companii",
             "type": "directory",
             "sub": [
-                "Amazon",
-                "P&G"
+                "Tremend",
+                "American Greetings",
+                "Essensys",
+                "LSEG",
+                "P&G",
+                "Delloit Digital",
+                "Cegeka",
+                "Ericsson",
+                "InfoSys",
+                "Softbinator",
             ]
         },
         {
@@ -91,10 +99,6 @@ function openAsmi(){
 
 function openFmi(){
     document.location = "https://fmi.unibuc.ro/";
-}
-
-function openStagii(){
-    document.location = "https://stagiipebune.ro/";
 }
 
 function manageTerminalOutput(input){
