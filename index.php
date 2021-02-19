@@ -278,36 +278,33 @@
 
     <!-- ======= Program Section ======= -->
     <section id="program" class="pricing">
-      <div class="container" data-aos="fade-up">
+        <div class="container d-flex flex-column" data-aos="fade-up">
+            <?php program_object::collect_programs("programs/*.json"); ?>
 
-        <div class="section-title">
-          <h2>Programul evenimentului</h2>
-            <p>Alătură-te prezentării <a href="#">AMIQ</a></p>
-        </div>
-
-        <div class="row">
-            <div class="row">
-                <?php $programs = glob("programs/*.json"); ?>
-                <?php foreach ($programs as $program): ?>
-                    <?php $program_details = get_program_details($program); ?>
-
-                    <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-                        <div class="box">
-                            <h3> <?php echo $program_details['date']->format('d F'); ?> </h3>
-                            <ul>
-                                <?php foreach ($program_details['events'] as $event): ?>
-                                    <?php echo get_event_draw_decision($program_details, $event); ?>
-                                <?php endforeach; ?>
-                            </ul>
+            <div class="row order-2">
+                <div class="row">
+                    <?php while (program_object::it_next_program()): ?>
+                        <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                            <div class="box">
+                                <h3>
+                                    <?php program_object::draw_title() ;?>
+                                </h3>
+                                <ul>
+                                    <?php program_object::draw_events() ;?>
+                                </ul>
+                            </div>
                         </div>
-                    </div>
-
-                <?php endforeach; ?>
+                    <?php endwhile; ?>
+                </div>
+                <br><br>
             </div>
 
-        </div>
-          <br><br>
-    </section><!-- End Program Section -->
+            <div class="section-title order-1">
+                <h2>Programul evenimentului</h2>
+                <p><?php program_object::draw_curent_events_shortcuts(); ?></p>
+            </div>
+    </section>
+    <!-- End Program Section -->
 
 </main><!-- End #main -->
 
