@@ -185,7 +185,7 @@
   $(".portfolio-details-carousel").owlCarousel({
     autoplay: true,
     dots: true,
-    loop: true,
+    loop: false,
     items: 1
   });
 
