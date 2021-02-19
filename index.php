@@ -246,7 +246,7 @@
     <section id="partners" class="team section-bg">
         <div class="container" data-aos="zoom-in">
             <div class="section-title">
-                <h2>Partenerii noștii</h2>
+                <h2>Partenerii noștri</h2>
                 <p>Apasă pe logo-ul companiilor pentru a vedea ofertele lor de angajare!</p>
             </div>
             <?php $companies = glob("companies/*.json"); ?>
@@ -321,9 +321,9 @@
         </div>
     </section><!-- End Pricing Section -->
 
-    <section>
+    <!--<section>
 
-    </section>
+    </section>-->
 
 </main><!-- End #main -->
 
