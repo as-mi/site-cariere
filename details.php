@@ -7,6 +7,7 @@
     $company = $_GET["company"];
     $company_details = get_company_details("companies/".$company.".json");
     $GLOBALS["title"] = $company_details["name"];
+    $GLOBALS["icon"] = $company_details["logo"];
 ?>
 
 <?php include_once "components/head.php"; ?>
@@ -24,13 +25,19 @@
 
     <!-- ======= Breadcrumbs ======= -->
     <section id="breadcrumbs" class="breadcrumbs" style="margin-top:60px">
-        <div class="container pt-3">
-            <ol>
-                <li><a href="/">Acasă</a></li>
-                <li><?php echo $company_details["name"]; ?></li>
-            </ol>
-            <h2><?php echo $company_details["name"]; ?></h2>
-
+        <div class="pt-3 container">
+            <div class="row">
+                <div class="col-6">
+                    <ol>
+                        <li><a href="/">Acasă</a></li>
+                        <li class="text-white"><?php echo $company_details["name"]; ?></li>
+                    </ol>
+                    <h2 class="text-white"><?php echo $company_details["name"]; ?></h2>
+                </div>
+                <div class="col-6">
+                    <img src="<?php echo $company_details["logo-header"]; ?>" width="200px" class="float-end">
+                </div>
+            </div>
         </div>
     </section><!-- End Breadcrumbs -->
 
@@ -41,24 +48,35 @@
             <div class="portfolio-details-container">
 
                 <div class="owl-carousel portfolio-details-carousel">
-                    <img src="https://atta.systems/wp-content/uploads/2019/06/banner-illustration.svg" class="img-fluid" alt="" style="max-height: 600px">
-                    <!--<img src="assets/img/portfolio/portfolio-details-2.jpg" class="img-fluid" alt="">
-                    <img src="assets/img/portfolio/portfolio-details-3.jpg" class="img-fluid" alt="">-->
+                    <?php if(isset($company_details["video"])): ?>
+                        <video width="100%" height="auto" controls autoplay>
+                            <source src="<?php echo $company_details["video"]; ?>" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    <?php elseif(isset($company_details["banner"])): ?>
+                        <?php foreach ($company_details["banner"] as $banner_img): ?>
+                            <img src="<?php echo $banner_img; ?>" class="img-fluid" alt="" style="max-height: 600px">
+                        <?php endforeach; ?>
+                    <?php else: ?>
+                        <img src="https://atta.systems/wp-content/uploads/2019/06/banner-illustration.svg" class="img-fluid" alt="" style="max-height: 600px">
+                    <?php endif; ?>
                 </div>
 
                 <div class="portfolio-info">
-                    <h3>Atta Systems</h3>
+                    <img src="<?php echo $company_details["logo"]; ?>" width="100px">
+                    <br><br>
                     <ul>
-                        <li><strong>Category</strong>: <?php echo $company_details["category"]; ?></li>
+                        <li><strong>Categorie</strong>: <?php echo $company_details["category"]; ?></li>
                         <li><strong>Client</strong>: ASU Company</li>
                         <li><strong>Project date</strong>: 01 March, 2020</li>
-                        <li><strong>Project URL</strong>: <a href="<?php echo $company_details["url"]; ?>" target="_blank"><?php echo str_replace("https://", "", $company_details["url"]); ?></a></li>
+                        <li><strong>URL</strong>: <a href="<?php echo $company_details["url"]; ?>" target="_blank"><?php echo str_replace("https://", "", $company_details["url"]); ?></a></li>
                     </ul>
                 </div>
 
             </div>
 
             <div class="portfolio-description">
+                <br><br>
                 <?php echo $company_details["template"]; ?>
             </div>
 

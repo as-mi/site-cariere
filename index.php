@@ -56,24 +56,11 @@
 						<input type="text" id="input" autofocus>
 					</div>
 				</div>
+              <p class="text-center" style="color: rgba(230,230,230,0.3);font-size: 12px">* Press enter to submit command</p>
 			</div>
         </div>
 
     </div>
-    <!--<svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
-        <defs>
-            <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
-        </defs>
-        <g class="wave1">
-            <use xlink:href="#wave-path" x="50" y="3" fill="rgba(255,255,255, .1)">
-        </g>
-        <g class="wave2">
-            <use xlink:href="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)">
-        </g>
-        <g class="wave3">
-            <use xlink:href="#wave-path" x="50" y="9" fill="#f8f9fa">
-        </g>
-    </svg>-->
 </section><!-- End Hero -->
 
 <main id="main">
@@ -138,7 +125,7 @@
     </section><!-- End About Section -->
 
     <!-- ======= Why Us Section ======= -->
-    <section id="why-us" class="why-us section-bg">
+    <section id="why-us" class="why-us bg-light">
         <div class="container-fluid" data-aos="fade-up">
 
             <div class="row">
@@ -149,7 +136,7 @@
                 <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-1 order-lg-2">
 
                     <div class="content">
-                        <h3>Detalii <strong>Eveniment</strong></h3>
+                        <h3 class="text-dark">Detalii <strong>Eveniment</strong></h3>
                     </div>
                     <div class="accordion-list">
                         <ul>
@@ -289,7 +276,7 @@
     </section><!-- End Portfolio Section -->
 
 
-    <!-- ======= Pricing Section ======= -->
+    <!-- ======= Program Section ======= -->
     <section id="program" class="pricing">
       <div class="container" data-aos="fade-up">
 
@@ -319,11 +306,8 @@
             </div>
 
         </div>
-    </section><!-- End Pricing Section -->
-
-    <!--<section>
-
-    </section>-->
+          <br><br>
+    </section><!-- End Program Section -->
 
 </main><!-- End #main -->
 
