@@ -27,9 +27,9 @@
         <div class="container pt-3">
             <ol>
                 <li><a href="/">Acasă</a></li>
-                <li><?php echo $company_details["name"]; ?></li>
+                <li class="text-white"><?php echo $company_details["name"]; ?></li>
             </ol>
-            <h2><?php echo $company_details["name"]; ?></h2>
+            <h2 class="text-white"><?php echo $company_details["name"]; ?></h2>
 
         </div>
     </section><!-- End Breadcrumbs -->
