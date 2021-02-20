@@ -127,12 +127,24 @@ function manageTerminalOutput(input){
         return false;
     }
     if(input_low.substring(0,2)==="ls"){
+        let selectedDir = currentDir;
+        if(input_low.length>2){
+            let found = false;
+            for(let i=0;i<currentDir.sub.length;++i){
+                if(typeof(currentDir.sub[i])==="object" && currentDir.sub[i].type === "directory" && currentDir.sub[i].name===input.substring(3)) {
+                    selectedDir = currentDir.sub[i];
+                    found = true;
+                }
+            }
+            if(!found)
+                return "ls: "+input.substring(3)+": No such directory";
+        }
         let out = "";
-        for(let i=0;i<currentDir.sub.length;++i){
-            if(typeof(currentDir.sub[i])==="string")
-                out += currentDir.sub[i];
+        for(let i=0;i<selectedDir.sub.length;++i){
+            if(typeof(selectedDir.sub[i])==="string")
+                out += selectedDir.sub[i];
             else
-                out += currentDir.sub[i].name;
+                out += selectedDir.sub[i].name;
             out += "&nbsp;&nbsp;";
             if((i+1)%4===0) out+="<br>";
         }
