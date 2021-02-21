@@ -237,21 +237,23 @@
                 <p>Apasă pe logo-ul companiilor pentru a vedea ofertele lor de angajare!</p>
             </div>
             <?php $companies = glob("companies/*.json"); ?>
-            <div class="row py-5" data-aos="zoom-in">
 
+            <div class="row py-5 mb-5" data-aos="zoom-in">
+                <h3 class="mb-4" style="color: white; text-align: center;">[ &nbsp Parteneri <span style="color: rgb(155, 228, 241);">Platinum</span> &nbsp ]</h3>
                 <?php foreach ($companies as $company): ?>
                     <?php $company_details = get_company_details($company); ?>
                     <div class="col-lg-6 pt-4">
-                        <div class="member d-flex align-items-start" style="padding-bottom: 40px" data-aos="zoom-in"
+                        <div class="member d-flex align-items-center justify-content-center" style="padding-bottom: 40px;" data-aos="zoom-in"
                              data-aos-delay="100">
-                            <div style="width:180px; padding-top:10px">
+                            <div style="width:180px; padding-top:10px; ">
                                 <a href="details.php?company=<?php echo $company_details['id']; ?>">
-                                    <img src="<?php echo $company_details['logo']; ?>" class="img-fluid">
+                                    <img src="<?php echo $company_details['logo']; ?>" class="img-fluid" >
                                 </a>
                             </div>
-                            <div class="member-info pt-3">
+                            <div class="member-info pt-3" style="width: 250px;">
                                 <a href="details.php?company=<?php echo $company_details['id']; ?>">
                                     <h4><?php echo $company_details['name']; ?></h4></a>
+                                <hr style="margin-top: 0; margin-bottom: 25px; border-top: 1px solid black">
                                 <span><?php echo $company_details['category']; ?></span>
                                 <?php if ($company_details["type"] == "platinum"): ?>
                                     <span><i class="fas fa-medal"
@@ -269,7 +271,111 @@
                         </div>
                     </div>
                 <?php endforeach; ?>
+            </div>
 
+            <div class="row py-5 mb-5" data-aos="zoom-in">
+            <h3 class="mb-4" style="color: white; text-align: center;">[ &nbsp Parteneri <span style="color: gold;">Gold</span> &nbsp ]</h3>
+                <?php foreach ($companies as $company): ?>
+                    <?php $company_details = get_company_details($company); ?>
+                    <div class="col-lg-6 pt-4">
+                        <div class="member d-flex align-items-center justify-content-center" style="padding-bottom: 40px;" data-aos="zoom-in"
+                             data-aos-delay="100">
+                            <div style="width:180px; padding-top:10px; ">
+                                <a href="details.php?company=<?php echo $company_details['id']; ?>">
+                                    <img src="<?php echo $company_details['logo']; ?>" class="img-fluid" >
+                                </a>
+                            </div>
+                            <div class="member-info pt-3" style="width: 250px;">
+                                <a href="details.php?company=<?php echo $company_details['id']; ?>">
+                                    <h4><?php echo $company_details['name']; ?></h4></a>
+                                <hr style="margin-top: 0; margin-bottom: 25px; border-top: 1px solid black">
+                                <span><?php echo $company_details['category']; ?></span>
+                                <?php if ($company_details["type"] == "platinum"): ?>
+                                    <span><i class="fas fa-medal"
+                                             style="color: #5c636a">1</i>&nbsp; Partener Platinum</span>
+                                <?php elseif ($company_details["type"] == "gold"): ?>
+                                    <span><i class="fas fa-medal" style="color: gold">2</i>&nbsp; Partener Gold</span>
+                                <?php elseif ($company_details["type"] == "silver"): ?>
+                                    <span><i class="fas fa-medal"
+                                             style="color: silver">3</i>&nbsp; Partener Silver</span>
+                                <?php elseif ($company_details["type"] == "bronze"): ?>
+                                    <span><i class="fas fa-medal"
+                                             style="color: #f4a460">4</i>&nbsp; Partener Bronze</span>
+                                <?php endif; ?>
+                            </div>
+                        </div>
+                    </div>
+                <?php endforeach; ?>
+            </div>
+
+            <div class="row py-5 mb-5" data-aos="zoom-in">
+            <h3 class="mb-4" style="color: white; text-align: center;">[ &nbsp Parteneri <span style="color: rgb(141, 139, 139);">Silver</span> &nbsp]</h3>
+                <?php foreach ($companies as $company): ?>
+                    <?php $company_details = get_company_details($company); ?>
+                    <div class="col-lg-6 pt-4">
+                        <div class="member d-flex align-items-center justify-content-center" style="padding-bottom: 40px;" data-aos="zoom-in"
+                             data-aos-delay="100">
+                            <div style="width:180px; padding-top:10px; ">
+                                <a href="details.php?company=<?php echo $company_details['id']; ?>">
+                                    <img src="<?php echo $company_details['logo']; ?>" class="img-fluid" >
+                                </a>
+                            </div>
+                            <div class="member-info pt-3" style="width: 250px;">
+                                <a href="details.php?company=<?php echo $company_details['id']; ?>">
+                                    <h4><?php echo $company_details['name']; ?></h4></a>
+                                <hr style="margin-top: 0; margin-bottom: 25px; border-top: 1px solid black">
+                                <span><?php echo $company_details['category']; ?></span>
+                                <?php if ($company_details["type"] == "platinum"): ?>
+                                    <span><i class="fas fa-medal"
+                                             style="color: #5c636a">1</i>&nbsp; Partener Platinum</span>
+                                <?php elseif ($company_details["type"] == "gold"): ?>
+                                    <span><i class="fas fa-medal" style="color: gold">2</i>&nbsp; Partener Gold</span>
+                                <?php elseif ($company_details["type"] == "silver"): ?>
+                                    <span><i class="fas fa-medal"
+                                             style="color: silver">3</i>&nbsp; Partener Silver</span>
+                                <?php elseif ($company_details["type"] == "bronze"): ?>
+                                    <span><i class="fas fa-medal"
+                                             style="color: #f4a460">4</i>&nbsp; Partener Bronze</span>
+                                <?php endif; ?>
+                            </div>
+                        </div>
+                    </div>
+                <?php endforeach; ?>
+            </div>
+
+            <div class="row py-5 mb-5" data-aos="zoom-in">
+            <h3 class="mb-4" style="color: white; text-align: center;"> [ &nbsp Parteneri <span style="color: #f4a460;">Bronze</span> &nbsp ]</h3>
+                <?php foreach ($companies as $company): ?>
+                    <?php $company_details = get_company_details($company); ?>
+                    <div class="col-lg-6 pt-4">
+                        <div class="member d-flex align-items-center justify-content-center" style="padding-bottom: 40px;" data-aos="zoom-in"
+                             data-aos-delay="100">
+                            <div style="width:180px; padding-top:10px; ">
+                                <a href="details.php?company=<?php echo $company_details['id']; ?>">
+                                    <img src="<?php echo $company_details['logo']; ?>" class="img-fluid" >
+                                </a>
+                            </div>
+                            <div class="member-info pt-3" style="width: 250px;">
+                                <a href="details.php?company=<?php echo $company_details['id']; ?>">
+                                    <h4><?php echo $company_details['name']; ?></h4></a>
+                                <hr style="margin-top: 0; margin-bottom: 25px; border-top: 1px solid black">
+                                <span><?php echo $company_details['category']; ?></span>
+                                <?php if ($company_details["type"] == "platinum"): ?>
+                                    <span><i class="fas fa-medal"
+                                             style="color: #5c636a">1</i>&nbsp; Partener Platinum</span>
+                                <?php elseif ($company_details["type"] == "gold"): ?>
+                                    <span><i class="fas fa-medal" style="color: gold">2</i>&nbsp; Partener Gold</span>
+                                <?php elseif ($company_details["type"] == "silver"): ?>
+                                    <span><i class="fas fa-medal"
+                                             style="color: silver">3</i>&nbsp; Partener Silver</span>
+                                <?php elseif ($company_details["type"] == "bronze"): ?>
+                                    <span><i class="fas fa-medal"
+                                             style="color: #f4a460">4</i>&nbsp; Partener Bronze</span>
+                                <?php endif; ?>
+                            </div>
+                        </div>
+                    </div>
+                <?php endforeach; ?>
             </div>
 
         </div>
