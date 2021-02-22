@@ -41,7 +41,7 @@
                   <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox btn-watch-video vbox-item mb-5" data-vbtype="video" data-autoplay="true"> Vezi video <i class="icofont-play-alt-2"></i></a>
               </div>
           </div>
-        <div class="col-lg-6 order-2 order-lg-2 hero-img mt-5" data-aos="fade-up" data-aos-delay="600">
+        <div class="col-lg-6 order-2 order-lg-2 hero-img mt-5" style="text-align: left!important;" data-aos="fade-up" data-aos-delay="600">
           <div class="wsize1 bor1" style="height: 450px">
 				<div class="panel">
 					<i class="fa fa-circle" style="color:rgb(237,106,94);margin-left: 15px"></i>
@@ -114,7 +114,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-6 d-flex align-items-center" style="justify-content: center" data-aos="zoom-out"
+                <div class="col-lg-6 d-flex align-items-center mt-5 mt-md-0" style="justify-content: center" data-aos="zoom-out"
                      data-aos-delay="200">
                     <img style="height: 400px" src="images/about-us-1.png" class="img-fluid" alt="">
                 </div>
@@ -278,9 +278,9 @@
             <?php program_object::collect_programs("programs/*.json"); ?>
 
             <div class="row order-2">
-                <div class="row">
+                <div class="row" style="padding-right: 0!important;">
                     <?php while (program_object::it_next_program()): ?>
-                        <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                        <div class="col-lg-4 mt-3" style="padding-right: 0!important;" data-aos="fade-up" data-aos-delay="100">
                             <div class="box">
                                 <h3>
                                     <?php program_object::draw_title() ;?>
