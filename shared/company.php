@@ -13,4 +13,28 @@
             $company_details["logo-header"] = $company_details["logo"];
         return $company_details;
     }
+
+    function package_color($package){
+        if($package=="platinum")
+            return "rgb(155, 228, 241)";
+        elseif ($package=="gold")
+            return "gold";
+        elseif ($package=="silver")
+            return "rgb(141, 139, 139)";
+        elseif ($package=="bronze")
+            return "#f4a460";
+        return "white";
+    }
+
+    function package_number($package){
+        if($package=="platinum")
+            return 1;
+        elseif ($package=="gold")
+            return 2;
+        elseif ($package=="silver")
+            return 3;
+        elseif ($package=="bronze")
+            return 4;
+        return 5;
+    }
 ?>
