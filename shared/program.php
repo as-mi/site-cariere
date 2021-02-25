@@ -90,6 +90,11 @@
             echo program_object::$current_program['date']->format('d ')."Martie";
         }
 
+        static function draw_subtitle() {
+            if(isset(program_object::$current_program['subtitle']))
+                echo program_object::$current_program['subtitle'];
+        }
+
         static function draw_curent_events_shortcuts() {
             $events_count = count(program_object::$events_running);
 

@@ -256,7 +256,7 @@
                                         <a href="details.php?company=<?php echo $company_details['id']; ?>">
                                             <h4><?php echo $company_details['name']; ?></h4></a>
                                         <hr style="margin-top: 0; margin-bottom: 25px; border-top: 1px solid black">
-                                        <span><?php echo $company_details['category']; ?></span>
+                                        <!--<span><?php echo $company_details['category']; ?></span>-->
                                         <span>
                                             <i class="fas fa-medal" style="color: <?php echo package_color($company_details["type"]); ?>"></i>
                                             &nbsp; Partener <?php echo ucfirst($company_details["type"]); ?></span>
@@ -285,6 +285,9 @@
                                 <h3>
                                     <?php program_object::draw_title() ;?>
                                 </h3>
+                                <h6 class="text-muted mt-0 mb-0">
+                                    <?php program_object::draw_subtitle() ;?>
+                                </h6>
                                 <ul>
                                     <?php program_object::draw_events() ;?>
                                 </ul>
