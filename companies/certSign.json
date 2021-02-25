@@ -1,0 +1,9 @@
+{
+  "id": "certSign",
+  "name": "CertSIGN",
+  "type": "bronze",
+  "category": "Full Stack Development",
+  "url": "https://www.certsign.ro/",
+  "logo": "certSign/logo-certSIGN-orizontal-RGB-Pozitiv.png",
+  "template": "4psa.html"
+}

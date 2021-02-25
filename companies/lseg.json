@@ -1,0 +1,9 @@
+{
+  "id": "lseg",
+  "name": "LSEG",
+  "type": "silver",
+  "category": "Full Stack Development",
+  "url": "https://www.lseg.com/careers/graduates-and-students",
+  "logo": "lseg/lseg_logo_rgb_pos.png",
+  "template": "4psa.html"
+}
