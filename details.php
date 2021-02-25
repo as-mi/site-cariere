@@ -77,7 +77,12 @@
 
             <div class="portfolio-description">
                 <br><br>
-                <?php echo $company_details["template"]; ?>
+
+                <?php
+                if(isset($company_details["template"])):
+                    echo $company_details["template"];
+                endif;
+                ?>
             </div>
 
         </div>

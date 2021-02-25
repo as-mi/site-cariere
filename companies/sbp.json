@@ -1,0 +1,9 @@
+{
+  "id": "sbp",
+  "name": "Software Business Partners",
+  "type": "bronze",
+  "category": "Full Stack Development",
+  "url": "",
+  "logo": "sbp/sbp_white.png",
+  "template": "4psa.html"
+}

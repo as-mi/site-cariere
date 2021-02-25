@@ -1,0 +1,9 @@
+{
+  "id": "ericsson",
+  "name": "Ericsson",
+  "type": "gold",
+  "category": "Full Stack Development",
+  "url": "",
+  "logo": "ericsson/ERI_vertical_RGB.png",
+  "template": "4psa.html"
+}
