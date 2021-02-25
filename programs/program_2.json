@@ -1,48 +1,18 @@
 {
   "id": "prg-1",
-  "date" : "2021-02-19",
+  "date" : "2021-03-02",
   "events": [
     {
+      "title": "Tremend",
+      "start": "18:00",
+      "end" :  "18:30",
+      "url" : "#"
+    },
+    {
       "title": "American Greetings",
-      "start": "08:30",
-      "end" :  "09:40",
-      "url" : "test"
-    },
-    {
-      "title": "Deloitte",
-      "start": "12:30",
-      "end" :  "11:20",
-      "url" : "test"
-    },
-    {
-      "title": "Pauză de masă",
-      "start": "15:00",
-      "end" :  "16:00",
-      "url" : "test"
-    },
-    {
-      "title": "Tremend ",
-      "start": "19:54",
-      "end" :  "20:55",
-      "url" : "test"
-    },
-    {
-      "title": "Ericsson",
-      "start": "16:55",
-      "end" :  "20:22",
-      "url" : "test"
-    },
-    {
-      "title": "Autodesk",
-      "start": "16:55",
-      "end" :  "20:22",
-      "url" : "test"
-    },
-    {
-      "title": "Accenture",
-      "start": "20:23",
-      "end" :  "22:50",
-      "url" : "test"
+      "start": "18:40",
+      "end" :  "19:10",
+      "url" : "#"
     }
   ]
 }

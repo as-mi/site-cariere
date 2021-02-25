@@ -1,0 +1,25 @@
+{
+  "id": "prg-1",
+  "date" : "2021-03-06",
+  "events": [
+    {
+      "title": "Tremend",
+      "start": "12:00",
+      "end" :  "13:00",
+      "url" : "#"
+    },
+    {
+      "title": "Softbinator",
+      "start": "13:00",
+      "end" :  "14:00",
+      "url" : "#"
+    },
+    {
+      "title": "Adobe",
+      "start": "14:00",
+      "end" :  "15:00",
+      "url" : "#"
+    }
+  ]
+}
+

@@ -1,0 +1,13 @@
+{
+  "id": "prg-1",
+  "date" : "2021-03-07",
+  "events": [
+    {
+      "title": "SBP Romania",
+      "start": "12:00",
+      "end" :  "13:00",
+      "url" : "#"
+    }
+  ]
+}
+

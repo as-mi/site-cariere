@@ -1,0 +1,37 @@
+{
+  "id": "prg-1",
+  "date" : "2021-03-04",
+  "events": [
+    {
+      "title": "Deloitte",
+      "start": "16:40",
+      "end" :  "17:10",
+      "url" : "#"
+    },
+    {
+      "title": "Ericsson",
+      "start": "17:20",
+      "end" :  "17:50",
+      "url" : "#"
+    },
+    {
+      "title": "4PSA",
+      "start": "18:00",
+      "end" :  "18:30",
+      "url" : "#"
+    },
+    {
+      "title": "Cegeka",
+      "start": "18:40",
+      "end" :  "19:10",
+      "url" : "#"
+    },
+    {
+      "title": "Cegeka",
+      "start": "19:20",
+      "end" :  "19:50",
+      "url" : "#"
+    }
+  ]
+}
+

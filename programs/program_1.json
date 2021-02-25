@@ -1,48 +1,12 @@
 {
   "id": "prg-1",
-  "date" : "2020-01-03",
+  "date" : "2021-03-01",
   "events": [
     {
-      "title": "American Greetings",
-      "start": "10:30",
-      "end" :  "11:20",
-      "url" : "test"
-    },
-    {
-      "title": "Deloitte",
-      "start": "10:30",
-      "end" :  "11:20",
-      "url" : "test"
-    },
-    {
-      "title": "Pauză de masă",
-      "start": "10:30",
-      "end" :  "11:20",
-      "url" : "test"
-    },
-    {
-      "title": "Tremend ",
-      "start": "10:30",
-      "end" :  "11:20",
-      "url" : "test"
-    },
-    {
-      "title": "Ericsson",
-      "start": "16:00",
-      "end" :  "17:25",
-      "url" : "test"
-    },
-    {
-      "title": "Autodesk",
-      "start": "16:55",
-      "end" :  "20:22",
-      "url" : "test"
-    },
-    {
-      "title": "Accenture",
-      "start": "20:23",
-      "end" :  "22:50",
-      "url" : "test"
+      "title": "P&G",
+      "start": "18:00",
+      "end" :  "18:30",
+      "url" : "#"
     }
   ]
 }

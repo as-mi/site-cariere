@@ -6,9 +6,9 @@
         static $events_running = [];
         static $current_program = NULL;
         static $event_templates = array(
-            '<li class="na"><i class="bx bx-x"></i><a href="%s"><span>%s</span></a></li>',
-            '<li><i class="bx bx-timer text-danger"></i><a href="%s"><span>%s</span></a></li>',
-            '<li><i class="bx bx-time-five"></i><a href="%s"><span>%s</span></a></li>'
+            '<li class="na"><i class="bx bx-x" style="margin-top: 3px"></i><a href="%s" target="_blank" style="text-decoration: none" class="text-muted"><span>%s</span></a></li>',
+            '<li><i class="bx bx-timer text-danger" style="margin-top: 2px"></i><a href="%s" target="_blank"><span>%s</span></a></li>',
+            '<li><i class="bx bx-time-five" style="margin-top: 3px"></i><a href="%s" target="_blank"><span>%s</span></a></li>'
         );
 
         static function collect_programs ($programs_glob_pattern) {
@@ -27,7 +27,6 @@
             $today = new DateTime('now');
             $program['date']->setTime(0, 0, 0);
             $today->setTime(0, 0, 0);
-            $date_case = 0;
 
             if ($today > $program['date']) {
                 $date_case = 0;
@@ -88,7 +87,7 @@
         }
 
         static function draw_title() {
-            echo program_object::$current_program['date']->format('d F');
+            echo program_object::$current_program['date']->format('d ')."Martie";
         }
 
         static function draw_curent_events_shortcuts() {
@@ -96,7 +95,7 @@
 
             switch ($events_count){
                 case 0: {
-                    echo "Nu sunt evenimente in desfăsurare acum!";
+                    echo "Nu sunt evenimente în desfăsurare acum!";
                     return;
                 }
                 case 1: {
@@ -111,7 +110,7 @@
                 $event = program_object::$events_running[$i];
                 $delimiter = (($i+1) === $events_count) ? ' ' : ', ';
 
-                echo sprintf("<a href='%s'>%s</a>%s", $event['url'], $event['title'], $delimiter);
+                echo sprintf("<a href='%s' target='_blank'>%s</a>%s", $event['url'], $event['title'], $delimiter);
             }
         }
     }
