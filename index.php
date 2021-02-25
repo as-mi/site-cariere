@@ -18,7 +18,7 @@
             <ul>
                 <li class="active"><a href="#header">Acasă</a></li>
                 <li><a href="#about">Despre</a></li>
-                <li><a href="#statistics">Statistici</a></li>
+                <li><a href="#details">Detalii</a></li>
                 <li><a href="#partners">Parteneri</a></li>
                 <li><a href="#program">Program</a></li>
             </ul>
@@ -125,7 +125,7 @@
     </section><!-- End About Section -->
 
     <!-- ======= Why Us Section ======= -->
-    <section id="why-us" class="why-us bg-light">
+    <section id="details" class="why-us bg-light">
         <div class="container-fluid" data-aos="fade-up">
 
             <div class="row">
