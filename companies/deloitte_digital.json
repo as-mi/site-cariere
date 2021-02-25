@@ -4,7 +4,8 @@
   "type": "gold",
   "category": "Full Stack Development",
   "url": "https://ro.deloittedigital.com/",
-  "logo": "delitte_digital/DEL_PRI_Digital_RGB/png",
+  "logo": "deloitte_digital/DEL_PRI_Digital_RGB.png",
+  "logo-header": "deloitte_digital/DEL_SEC_Digital_RGB.png",
   "template": "4psa.html",
-  "video": "delitte_digital/deloittedigital-cinemaad_sound.mp4"
+  "video": "deloitte_digital/deloittedigital-cinemaad_sound.mov"
 }

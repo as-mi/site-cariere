@@ -170,7 +170,7 @@
     </section><!-- End Why Us Section -->
 
 
-    <!-- ======= Portfolio Section ======= -->
+    <!-- ======= Partners Section ======= -->
     <section id="partners" class="team section-bg">
         <div class="container" data-aos="zoom-in">
             <div class="section-title">
@@ -186,17 +186,17 @@
                         <?php $company_details = get_company_details($company); ?>
                         <?php if($company_details["type"]==$package): ?>
                             <div class="col-lg-6 pt-4">
-                                <div class="member d-flex align-items-center justify-content-center" style="padding-bottom: 40px;" data-aos="zoom-in"
+                                <div class="member d-flex align-items-center justify-content-center" style="padding-bottom: 40px;height: 190px" data-aos="zoom-in"
                                      data-aos-delay="100">
                                     <div style="width:180px; padding-top:10px; ">
                                         <a href="details.php?company=<?php echo $company_details['id']; ?>">
-                                            <img src="<?php echo $company_details['logo']; ?>" class="img-fluid" >
+                                            <img src="<?php echo $company_details['logo']; ?>" style="max-height: 100px" class="img-fluid" >
                                         </a>
                                     </div>
                                     <div class="member-info pt-3" style="width: 250px;">
                                         <a href="details.php?company=<?php echo $company_details['id']; ?>">
                                             <h4><?php echo $company_details['name']; ?></h4></a>
-                                        <hr style="margin-top: 0; margin-bottom: 25px; border-top: 1px solid black">
+                                        <hr style="margin-top: 0; margin-bottom: 25px; border-top: 1px solid grey">
                                         <!--<span><?php echo $company_details['category']; ?></span>-->
                                         <span>
                                             <i class="fas fa-medal" style="color: <?php echo package_color($company_details["type"]); ?>"></i>

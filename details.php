@@ -58,7 +58,7 @@
                             <img src="<?php echo $banner_img; ?>" class="img-fluid" alt="" style="max-height: 600px">
                         <?php endforeach; ?>
                     <?php else: ?>
-                        <img src="https://atta.systems/wp-content/uploads/2019/06/banner-illustration.svg" class="img-fluid" alt="" style="max-height: 600px">
+                        <img src="images/banner-illustration.svg" class="img-fluid" alt="" style="max-height: 600px">
                     <?php endif; ?>
                 </div>
 
@@ -66,9 +66,9 @@
                     <img src="<?php echo $company_details["logo"]; ?>" width="100px">
                     <br><br>
                     <ul>
-                        <li><strong>Categorie</strong>: <?php echo $company_details["category"]; ?></li>
+                        <!--<li><strong>Categorie</strong>: <?php echo $company_details["category"]; ?></li>
                         <li><strong>Client</strong>: ASU Company</li>
-                        <li><strong>Project date</strong>: 01 March, 2020</li>
+                        <li><strong>Project date</strong>: 01 March, 2020</li>-->
                         <li><strong>URL</strong>: <a href="<?php echo $company_details["url"]; ?>" target="_blank"><?php echo str_replace("https://", "", $company_details["url"]); ?></a></li>
                     </ul>
                 </div>
