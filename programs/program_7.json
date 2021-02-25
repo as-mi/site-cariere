@@ -1,9 +1,16 @@
 {
   "id": "prg-1",
+  "subtitle": "Networking Session",
   "date" : "2021-03-07",
   "events": [
     {
       "title": "SBP Romania",
+      "start": "12:00",
+      "end" :  "13:00",
+      "url" : "#"
+    },
+    {
+      "title": "P&G",
       "start": "12:00",
       "end" :  "13:00",
       "url" : "#"

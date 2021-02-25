@@ -1,5 +1,6 @@
 {
   "id": "prg-1",
+  "subtitle": "Networking Session",
   "date" : "2021-03-06",
   "events": [
     {
@@ -9,13 +10,61 @@
       "url" : "#"
     },
     {
+      "title": "4PSA",
+      "start": "12:00",
+      "end": "13:00",
+      "url": "#"
+    },
+    {
+      "title": "Deloitte Digital",
+      "start": "12:00",
+      "end": "13:00",
+      "url": "#"
+    },
+    {
+      "title": "LSEG",
+      "start": "12:00",
+      "end": "13:00",
+      "url": "#"
+    },
+    {
       "title": "Softbinator",
       "start": "13:00",
       "end" :  "14:00",
       "url" : "#"
     },
     {
+      "title": "American Greetings",
+      "start": "13:00",
+      "end" :  "14:00",
+      "url" : "#"
+    },
+    {
+      "title": "Essensys",
+      "start": "13:00",
+      "end" :  "14:00",
+      "url" : "#"
+    },
+    {
+      "title": "certSIGN",
+      "start": "13:00",
+      "end" :  "14:00",
+      "url" : "#"
+    },
+    {
       "title": "Adobe",
+      "start": "14:00",
+      "end" :  "15:00",
+      "url" : "#"
+    },
+    {
+      "title": "Ericsson",
+      "start": "14:00",
+      "end" :  "15:00",
+      "url" : "#"
+    },
+    {
+      "title": "Stone Soup Tech",
       "start": "14:00",
       "end" :  "15:00",
       "url" : "#"
