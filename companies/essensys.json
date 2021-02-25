@@ -6,6 +6,7 @@
   "url": "https://www.essensys.ro",
   "banner": ["companies/media/essensys/essensys-academie.jpg"],
   "logo": "essensys/essensys.png",
+  "dark_background": true,
   "logo-header": "essensys/essensys-horizontal-white.png",
   "template": "essensys.html"
 }

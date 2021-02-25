@@ -8,6 +8,7 @@
     $company_details = get_company_details("companies/".$company.".json");
     $GLOBALS["title"] = $company_details["name"];
     $GLOBALS["icon"] = $company_details["logo"];
+    $dark_background = isset($company_details["dark_background"]) && $company_details["dark_background"] == true;
 ?>
 
 <?php include_once "components/head.php"; ?>
@@ -15,27 +16,27 @@
 <body>
 
 <!-- ======= Header ======= -->
-<header id="header" class="fixed-top header-inner-pages bg-white">
+<header id="header" class="fixed-top header-inner-pages <?php echo $dark_background ? 'bg-white' : 'bg-black';  ?>">
     <div class="container d-flex align-items-center">
-        <a href="index.php" class="logo me-auto"><img src="images/cariere-small.png"  alt="" class="img-fluid"></a>
+        <a href="index.php" class="logo me-auto"><img src="images/<?php echo $dark_background ? 'cariere-small.png' : 'cariere-small-white.png';  ?>"  alt="" class="img-fluid"></a>
     </div>
 </header><!-- End Header -->
 
 <main id="main">
 
     <!-- ======= Breadcrumbs ======= -->
-    <section id="breadcrumbs" class="breadcrumbs" style="margin-top:60px">
+    <section id="breadcrumbs" class="breadcrumbs <?php echo $dark_background ? '' : 'bg-light';  ?>" style="margin-top:60px">
         <div class="pt-3 container">
             <div class="row">
                 <div class="col-6">
                     <ol>
                         <li><a href="/">Acasă</a></li>
-                        <li class="text-white"><?php echo $company_details["name"]; ?></li>
+                        <li class="<?php echo $dark_background ? 'text-white' : 't';  ?>"><?php echo $company_details["name"]; ?></li>
                     </ol>
-                    <h2 class="text-white"><?php echo $company_details["name"]; ?></h2>
+                    <h2 class="<?php echo $dark_background ? 'text-white' : 't';  ?>"><?php echo $company_details["name"]; ?></h2>
                 </div>
                 <div class="col-6">
-                    <img src="<?php echo $company_details["logo-header"]; ?>" width="200px" class="float-end">
+                    <img src="<?php echo $company_details["logo-header"]; ?>" style="height: 70px" class="float-end">
                 </div>
             </div>
         </div>
@@ -66,9 +67,6 @@
                     <img src="<?php echo $company_details["logo"]; ?>" width="100px">
                     <br><br>
                     <ul>
-                        <!--<li><strong>Categorie</strong>: <?php echo $company_details["category"]; ?></li>
-                        <li><strong>Client</strong>: ASU Company</li>
-                        <li><strong>Project date</strong>: 01 March, 2020</li>-->
                         <li><strong>URL</strong>: <a href="<?php echo $company_details["url"]; ?>" target="_blank"><?php echo str_replace("https://", "", $company_details["url"]); ?></a></li>
                     </ul>
                 </div>

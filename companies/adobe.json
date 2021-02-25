@@ -7,5 +7,6 @@
   "url": "https://www.adobe.com/careers.html",
   "logo": "adobe/adobe-red.png",
   "logo-header": "adobe/adobe-white.png",
+  "dark_background": true,
   "template": "adobe.html"
 }
