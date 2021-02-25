@@ -1,0 +1,9 @@
+{
+  "id": "autodesk",
+  "name": "Autodesk",
+  "type": "bronze",
+  "category": "Full Stack Development",
+  "url": "https://www.autodesk.com/",
+  "logo": "autodesk/autodesk-logo-rgb-1line-medium-v2.png",
+  "template": "4psa.html"
+}

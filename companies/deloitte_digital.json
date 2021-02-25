@@ -1,0 +1,10 @@
+{
+  "id": "deloitte_digital",
+  "name": "Deloitte Digital",
+  "type": "gold",
+  "category": "Full Stack Development",
+  "url": "https://ro.deloittedigital.com/",
+  "logo": "delitte_digital/DEL_PRI_Digital_RGB/png",
+  "template": "4psa.html",
+  "video": "delitte_digital/deloittedigital-cinemaad_sound.mp4"
+}
