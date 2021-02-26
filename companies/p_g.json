@@ -5,5 +5,6 @@
   "category": "Full Stack Development",
   "url": "HTTPS://WWW.PGCAREERS.COM/STAY-INFORMED",
   "logo": "p_g/2018_PG_logo.png",
-  "template": "4psa.html"
+  "banner": ["companies/media/p_g/cover.png"],
+  "template": "p_g.html"
 }

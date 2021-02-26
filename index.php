@@ -53,7 +53,7 @@
 					</div>
 					<div class="line">
 						<span id="path">Cariere>&nbsp;</span>
-						<input type="text" id="input" autofocus>
+						<input type="text" id="input">
 					</div>
 				</div>
               <p class="text-center" style="color: rgba(230,230,230,0.3);font-size: 12px">* Press enter to submit command</p>

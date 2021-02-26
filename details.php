@@ -36,7 +36,7 @@
                     <h2 class="<?php echo $dark_background ? 'text-white' : 't';  ?>"><?php echo $company_details["name"]; ?></h2>
                 </div>
                 <div class="col-6">
-                    <img src="<?php echo $company_details["logo-header"]; ?>" style="height: 70px" class="float-end">
+                    <img src="<?php echo $company_details["logo-header"]; ?>" style="max-height: 70px;max-width: 60%;" class="float-end">
                 </div>
             </div>
         </div>
@@ -56,7 +56,7 @@
                         </video>
                     <?php elseif(isset($company_details["banner"])): ?>
                         <?php foreach ($company_details["banner"] as $banner_img): ?>
-                            <img src="<?php echo $banner_img; ?>" class="img-fluid" alt="" style="max-height: 600px">
+                            <img src="<?php echo $banner_img; ?>" class="img-fluid" alt="" style="min-height: 600px">
                         <?php endforeach; ?>
                     <?php else: ?>
                         <img src="images/banner-illustration.svg" class="img-fluid" alt="" style="max-height: 600px">
@@ -64,9 +64,11 @@
                 </div>
 
                 <div class="portfolio-info">
-                    <img src="<?php echo $company_details["logo"]; ?>" width="100px">
+                    <img src="<?php echo $company_details["logo"]; ?>" width="100px" style="margin-left: auto;margin-right: auto">
                     <br><br>
                     <ul>
+                        <li><strong>Companie</strong>: <?php echo ucfirst($company_details["name"]); ?></li>
+                        <li><strong>Pachet</strong>: <?php echo ucfirst($company_details["type"]); ?></li>
                         <li><strong>URL</strong>: <a href="<?php echo $company_details["url"]; ?>" target="_blank"><?php echo str_replace("https://", "", $company_details["url"]); ?></a></li>
                     </ul>
                 </div>
@@ -91,7 +93,7 @@
 <?php include_once "components/footer.php"; ?>
 
 <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a>
-<div id="preloader"></div>
+<!--<div id="preloader"></div>-->
 
 <?php include_once "components/scripts.php"; ?>
 
