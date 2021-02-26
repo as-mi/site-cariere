@@ -69,7 +69,9 @@
                     <ul>
                         <li><strong>Companie</strong>: <?php echo ucfirst($company_details["name"]); ?></li>
                         <li><strong>Pachet</strong>: <?php echo ucfirst($company_details["type"]); ?></li>
-                        <li><strong>URL</strong>: <a href="<?php echo $company_details["url"]; ?>" target="_blank"><?php echo str_replace("https://", "", $company_details["url"]); ?></a></li>
+                        <?php if(isset($company_details["url"]) && $company_details["url"]): ?>
+                            <li><strong>URL</strong>: <a href="<?php echo $company_details["url"]; ?>" target="_blank"><?php echo str_replace("https://", "", $company_details["url"]); ?></a></li>
+                        <?php endif; ?>
                     </ul>
                 </div>
 
