@@ -5,5 +5,7 @@
   "category": "Full Stack Development",
   "url": "https://www.lseg.com/careers/graduates-and-students",
   "logo": "lseg/lseg_logo_rgb_pos.png",
-  "template": ""
+  "logo-header": "lseg/lseg_logo_rgb_wht_rev.png",
+  "dark-background": true,
+  "template": "lseg.html"
 }

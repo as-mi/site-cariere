@@ -8,7 +8,7 @@
     $company_details = get_company_details("companies/".$company.".json");
     $GLOBALS["title"] = $company_details["name"];
     $GLOBALS["icon"] = $company_details["logo"];
-    $dark_background = isset($company_details["dark_background"]) && $company_details["dark_background"] == true;
+    $dark_background = isset($company_details["dark-background"]) && $company_details["dark-background"] == true;
 ?>
 
 <?php include_once "components/head.php"; ?>

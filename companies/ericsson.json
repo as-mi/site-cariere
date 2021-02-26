@@ -5,7 +5,7 @@
   "category": "Full Stack Development",
   "url": "",
   "logo": "ericsson/ERI_vertical_RGB.png",
-  "logo_header": "ericsson/ERI_horizontal_RGB.png",
-  "dark_background": true,
+  "logo-header": "ericsson/ERI_horizontal_RGB.png",
+  "dark-background": true,
   "template": "ericsson.html"
 }

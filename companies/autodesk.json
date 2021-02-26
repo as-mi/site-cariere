@@ -3,7 +3,10 @@
   "name": "Autodesk",
   "type": "bronze",
   "category": "Full Stack Development",
+  "video": "autodesk/video.mp4",
   "url": "https://www.autodesk.com/",
   "logo": "autodesk/autodesk-logo-rgb-1line-medium-v2.png",
+  "logo-header": "autodesk/autodesk-logo-rgb-white-1line-medium-v2.png",
+  "dark-background": true,
   "template": ""
 }

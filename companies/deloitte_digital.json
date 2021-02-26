@@ -6,7 +6,7 @@
   "url": "https://ro.deloittedigital.com/",
   "logo": "deloitte_digital/DEL_PRI_Digital_RGB.png",
   "logo-header": "deloitte_digital/DEL_SEC_Digital_RGB.png",
-  "dark_background": true,
+  "dark-background": true,
   "template": "deloitte_digital.html",
   "video": "deloitte_digital/deloittedigital-cinemaad_sound.mov"
 }
