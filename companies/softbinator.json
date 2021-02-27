@@ -1,0 +1,10 @@
+{
+  "id": "softbinator",
+  "name": "Softbinator",
+  "type": "gold",
+  "category": "Full Stack Development",
+  "url": "https://www.softbinator.com/labs",
+  "logo": "softbinator/softbinator.png",
+  "template": "softbinator.html",
+  "video": "softbinator/Clip_prezentare.mp4"
+}

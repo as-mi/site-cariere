@@ -1,0 +1,20 @@
+{
+  "id": "prg-1",
+  "subtitle": "Prezentare",
+  "date" : "2021-03-05",
+  "events": [
+    {
+      "title": "Stone Soup Tech",
+      "start": "17:20",
+      "end" :  "17:50",
+      "url" : "https://teams.microsoft.com/l/meetup-join/19%3a9848310a690b418e9f5e3f3640bd1f1e%40thread.tacv2/1614344889143?context=%7b%22Tid%22%3a%2208a1a72f-fecd-4dae-8cec-471a2fb7c2f1%22%2c%22Oid%22%3a%221fedc098-7aa8-43e6-85eb-fd5858eabeca%22%7d"
+    },
+    {
+      "title": "LSEG",
+      "start": "18:00",
+      "end" :  "18:30",
+      "url" : "https://teams.microsoft.com/l/meetup-join/19%3ac995b34c664641ed966a9b4580d9ebb7%40thread.tacv2/1614342671345?context=%7b%22Tid%22%3a%2208a1a72f-fecd-4dae-8cec-471a2fb7c2f1%22%2c%22Oid%22%3a%221fedc098-7aa8-43e6-85eb-fd5858eabeca%22%7d"
+    }
+  ]
+}
+

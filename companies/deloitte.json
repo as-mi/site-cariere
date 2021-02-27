@@ -1,0 +1,11 @@
+{
+  "id": "deloitte",
+  "name": "Deloitte",
+  "type": "gold",
+  "category": "Full Stack Development",
+  "url": "https://www2.deloitte.com/us/en.html",
+  "logo": "deloitte/DEL_PRI_RGB.png",
+  "banner": ["companies/media/deloitte/deloitte.png"],
+  "logo-header": "deloitte/DEL_PRI_RGB.png",
+  "template": ""
+}

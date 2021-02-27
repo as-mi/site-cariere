@@ -1,0 +1,38 @@
+{
+  "id": "prg-1",
+  "subtitle": "Prezentare",
+  "date" : "2021-03-04",
+  "events": [
+    {
+      "title": "Deloitte",
+      "start": "16:40",
+      "end" :  "17:10",
+      "url" : ""
+    },
+    {
+      "title": "Ericsson",
+      "start": "17:20",
+      "end" :  "17:50",
+      "url" : ""
+    },
+    {
+      "title": "4PSA",
+      "start": "18:00",
+      "end" :  "18:30",
+      "url" : "https://teams.microsoft.com/l/meetup-join/19%3a75707dd27e7f4911915ec3af1f29cd08%40thread.tacv2/1614342189629?context=%7b%22Tid%22%3a%2208a1a72f-fecd-4dae-8cec-471a2fb7c2f1%22%2c%22Oid%22%3a%221fedc098-7aa8-43e6-85eb-fd5858eabeca%22%7d"
+    },
+    {
+      "title": "Cegeka",
+      "start": "18:40",
+      "end" :  "19:10",
+      "url" : "https://teams.microsoft.com/l/meetup-join/19%3a08c28f15cd074b77b8b7c19dd696bb02%40thread.tacv2/1614343076623?context=%7b%22Tid%22%3a%2208a1a72f-fecd-4dae-8cec-471a2fb7c2f1%22%2c%22Oid%22%3a%221fedc098-7aa8-43e6-85eb-fd5858eabeca%22%7d"
+    },
+    {
+      "title": "Cegeka",
+      "start": "19:20",
+      "end" :  "19:50",
+      "url" : "https://teams.microsoft.com/l/meetup-join/19%3a08c28f15cd074b77b8b7c19dd696bb02%40thread.tacv2/1614343076623?context=%7b%22Tid%22%3a%2208a1a72f-fecd-4dae-8cec-471a2fb7c2f1%22%2c%22Oid%22%3a%221fedc098-7aa8-43e6-85eb-fd5858eabeca%22%7d"
+    }
+  ]
+}
+

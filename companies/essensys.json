@@ -1,0 +1,12 @@
+{
+  "id": "essensys",
+  "name": "Essensys",
+  "type": "silver",
+  "category": "Full Stack Development",
+  "url": "https://www.essensys.ro",
+  "banner": ["companies/media/essensys/essensys-academie.jpg"],
+  "logo": "essensys/essensys.png",
+  "dark-background": true,
+  "logo-header": "essensys/essensys-horizontal-white.png",
+  "template": "essensys.html"
+}

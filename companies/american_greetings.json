@@ -1,0 +1,10 @@
+{
+  "id": "american_greetings",
+  "name": "American Greetings",
+  "type": "silver",
+  "category": "Full Stack Development",
+  "video": "american_greetings/Final-scurt.mp4",
+  "url": "https://americangreetings.ro/",
+  "logo": "american_greetings/Logo_AG.png",
+  "template": "american_greetings.html"
+}

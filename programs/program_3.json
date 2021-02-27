@@ -1,0 +1,32 @@
+{
+  "id": "prg-1",
+  "subtitle": "Prezentare",
+  "date" : "2021-03-03",
+  "events": [
+    {
+      "title": "Deloitte Digital",
+      "start": "17:20",
+      "end" :  "17:50",
+      "url" : "#"
+    },
+    {
+      "title": "Softbinator",
+      "start": "18:00",
+      "end" :  "18:30",
+      "url" : "https://teams.microsoft.com/l/meetup-join/19%3ad9818697c99e46309f177a0785ba0c75%40thread.tacv2/1614346165909?context=%7b%22Tid%22%3a%2208a1a72f-fecd-4dae-8cec-471a2fb7c2f1%22%2c%22Oid%22%3a%221fedc098-7aa8-43e6-85eb-fd5858eabeca%22%7d"
+    },
+    {
+      "title": "Essensys",
+      "start": "18:40",
+      "end" :  "19:10",
+      "url" : "https://teams.microsoft.com/l/meetup-join/19%3a3c5b3567142b4247b0b096d1dfafa8df%40thread.tacv2/1614343247430?context=%7b%22Tid%22%3a%2208a1a72f-fecd-4dae-8cec-471a2fb7c2f1%22%2c%22Oid%22%3a%221fedc098-7aa8-43e6-85eb-fd5858eabeca%22%7d"
+    },
+    {
+      "title": "Infosys",
+      "start": "19:20",
+      "end" :  "19:50",
+      "url" : "#"
+    }
+  ]
+}
+

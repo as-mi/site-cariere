@@ -1,0 +1,12 @@
+{
+  "id": "adobe",
+  "name": "Adobe",
+  "type": "bronze",
+  "category": "Video",
+  "video": "adobe/Adobe Romania Interns_ Tech Fair (2019).mp4",
+  "url": "https://www.adobe.com/careers.html",
+  "logo": "adobe/adobe-red.png",
+  "logo-header": "adobe/adobe-white.png",
+  "dark-background": true,
+  "template": "adobe.html"
+}

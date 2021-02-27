@@ -1,0 +1,14 @@
+{
+  "id": "prg-1",
+  "subtitle": "Prezentare",
+  "date" : "2021-03-01",
+  "events": [
+    {
+      "title": "P&G",
+      "start": "15:00",
+      "end" :  "18:30",
+      "url" : "https://teams.microsoft.com/l/meetup-join/19%3aaad3c52a33bf4ec5b2de5fb75d19d105%40thread.tacv2/1614165061797?context=%7b%22Tid%22%3a%2208a1a72f-fecd-4dae-8cec-471a2fb7c2f1%22%2c%22Oid%22%3a%22e93049c3-1a40-4fba-832d-561bfa05bc9b%22%7d"
+    }
+  ]
+}
+

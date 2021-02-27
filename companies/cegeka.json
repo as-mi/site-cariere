@@ -1,0 +1,10 @@
+{
+  "id": "cegeka",
+  "name": "Cegeka",
+  "type": "gold",
+  "category": "Full Stack Development",
+  "url": "https://www.cegeka.com/en/ro/",
+  "banner": ["companies/media/cegeka/cegeka.png"],
+  "logo": "cegeka/Logo_color_notagline_RGB_transparant.png",
+  "template": "cegeka.html"
+}

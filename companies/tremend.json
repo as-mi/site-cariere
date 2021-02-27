@@ -1,0 +1,12 @@
+{
+  "id": "tremend",
+  "name": "Tremend",
+  "type": "bronze",
+  "category": "Full Stack Development",
+  "url": "https://www.tremend.com/",
+  "logo": "tremend/Logo_Tremend_original.png",
+  "logo-header": "tremend/Logo_Tremend_white.png",
+  "dark-background": true,
+  "template": "tremend.html",
+  "video": "tremend/Video_Prezentare_Tremend(1080p).mp4"
+}

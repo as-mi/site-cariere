@@ -1,0 +1,10 @@
+{
+  "id": "endava",
+  "name": "Endava",
+  "type": "bronze",
+  "category": "Full Stack Development",
+  "url": "",
+  "banner": ["companies/media/endava/endava.png"],
+  "logo": "endava/Endava_Logo_RGB.png", 
+  "template": ""
+}

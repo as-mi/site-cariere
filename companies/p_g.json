@@ -1,0 +1,10 @@
+{
+  "id": "p_g",
+  "name": "P&G",
+  "type": "silver",
+  "category": "Full Stack Development",
+  "url": "https://www.pgcareers.com/stay-informed",
+  "logo": "p_g/2018_PG_logo.png",
+  "banner": ["companies/media/p_g/cover.png"],
+  "template": "p_g.html"
+}

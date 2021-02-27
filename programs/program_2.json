@@ -1,0 +1,20 @@
+{
+  "id": "prg-1",
+  "subtitle": "Prezentare",
+  "date" : "2021-03-02",
+  "events": [
+    {
+      "title": "Tremend",
+      "start": "18:00",
+      "end" :  "18:30",
+      "url" : "https://teams.microsoft.com/l/meetup-join/19%3aff4adc88c97a4a039d36d398b5a79cc9%40thread.tacv2/1614165094729?context=%7b%22Tid%22%3a%2208a1a72f-fecd-4dae-8cec-471a2fb7c2f1%22%2c%22Oid%22%3a%22e93049c3-1a40-4fba-832d-561bfa05bc9b%22%7d"
+    },
+    {
+      "title": "American Greetings",
+      "start": "18:40",
+      "end" :  "19:10",
+      "url" : "https://teams.microsoft.com/l/meetup-join/19%3a4285e6b00c004132bf6e8006c57b8156%40thread.tacv2/1614165172712?context=%7b%22Tid%22%3a%2208a1a72f-fecd-4dae-8cec-471a2fb7c2f1%22%2c%22Oid%22%3a%22e93049c3-1a40-4fba-832d-561bfa05bc9b%22%7d"
+    }
+  ]
+}
+

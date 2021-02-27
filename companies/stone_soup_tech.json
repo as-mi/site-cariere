@@ -1,0 +1,10 @@
+{
+  "id": "stone_soup_tech",
+  "name": "Stone Soup Tech",
+  "type": "silver",
+  "category": "Full Stack Development",
+  "url": "http://www.stonesouptech.com/",
+  "logo": "stone_soup_tech/Logo-StoneSoupTech.png",
+  "template": "stone_soup_tech.html",
+  "video": "stone_soup_tech/Video_prezentare_Stone_Soup_Tech.mp4"
+}

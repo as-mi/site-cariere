@@ -1,0 +1,10 @@
+{
+  "id": "4psa",
+  "name": "4PSA",
+  "type": "gold",
+  "category": "Full Stack Development",
+  "url": "https://www.hubgets.com/jobs",
+  "banner": ["companies/media/4psa/4psa.png"],
+  "logo": "4psa/4PSA-logo.png",
+  "template": "4psa.html"
+}
