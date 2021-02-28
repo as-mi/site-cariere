@@ -38,7 +38,7 @@
                   <img src="images/cariere-white.png" style="width: 350px" alt="" class="img-fluid">
                   <br><br>
                   <a href="#about" class="btn-get-started scrollto mt-5">Despre Cariere</a>
-                  <!--<a href="" class="venobox btn-watch-video vbox-item mb-5" data-vbtype="video" data-autoplay="true"> Vezi video <i class="icofont-play-alt-2"></i></a>-->
+                  <a href="https://youtu.be/utLKZIhdjGE" class="venobox btn-watch-video vbox-item mb-5" data-vbtype="video" data-autoplay="true"> Vezi video <i class="icofont-play-alt-2"></i></a>
               </div>
           </div>
         <div class="col-lg-6 order-2 order-lg-2 hero-img mt-5" style="text-align: left!important;" data-aos="fade-up" data-aos-delay="600">
