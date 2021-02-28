@@ -3,7 +3,7 @@
   "name": "InfoSys",
   "type": "gold",
   "category": "Full Stack Development",
-  "url": "www.infosys.com/InStep",
+  "url": "https://www.infosys.com/InStep",
   "banner": ["companies/media/infosys/infosys.png"],
   "logo": "infosys/Infosys_logo.png",
   "template": "infosys.html"
