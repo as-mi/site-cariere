@@ -74,8 +74,9 @@
                         <?php if(isset($company_details["url"]) && $company_details["url"]): ?>
                             <li><strong>URL</strong>: <a href="<?php echo $company_details["url"]; ?>" target="_blank"><?php echo str_replace("https://", "", $company_details["url"]); ?></a></li>
                         <?php endif; ?>
-                        <?php if(isset($company_details["technical_test"])): ?>
-                            <li><strong>Test tehnic</strong>: <a href="<?php echo $company_details["technical_test"]; ?>" target="_blank"><?php echo str_replace("https://", "", $company_details["technical_test"]); ?></a></li>
+                        <?php if(isset($company_details["technical-test"])): ?>
+                            <li><strong>Test tehnic</strong>: <a href="<?php echo $company_details["technical-test"]; ?>" target="_blank"><?php echo str_replace("https://", "", $company_details["technical-test"]); ?></a></li>
+                            <p class="text-muted">*<?php echo isset($company_details["technical-test-details"]) ? $company_details["technical-test-details"] : ""; ?></p>
                         <?php endif; ?>
                     </ul>
                 </div>
