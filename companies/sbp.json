@@ -3,10 +3,10 @@
   "name": "Software Business Partners",
   "type": "bronze",
   "category": "Full Stack Development",
-  "url": "",
-  "logo": "sbp/sbp_white.png",
+  "url": "https://www.sbp-romania.com",
+  "logo": "sbp/sbp_black.png",
   "video": "sbp/video.mp4",
-  "logo-header": "sbp/sbp_black.png",
+  "logo-header": "sbp/sbp_white.png",
   "dark-background": true,
   "template": "sbp.html"
 }
