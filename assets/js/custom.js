@@ -85,6 +85,7 @@ let directory = {
 let currentDir = directory;
 
 function execCommand(input){
+    if($('#history').length==0 || $('#path').length==0) return;
     $('#history').append($('#path')[0].innerHTML+input+'<br>');
     let out = manageTerminalOutput(input);
     if(out!==false && out!==undefined)

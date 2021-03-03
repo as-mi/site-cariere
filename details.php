@@ -51,8 +51,8 @@
 
                 <div class="owl-carousel portfolio-details-carousel">
                     <?php if(isset($company_details["video"])): ?>
-                        <video width="100%" height="auto" controls autoplay>
-                            <source src="<?php echo $company_details["video"]; ?>" type="video/mp4">
+                        <video width="100%" height="auto" controls autoplay id="site_video">
+                            <source src="<?php echo $company_details["video"]; ?>" type="video/mp4" >
                             Your browser does not support the video tag.
                         </video>
                     <?php elseif(isset($company_details["banner"])): ?>
@@ -104,6 +104,12 @@
 <!--<div id="preloader"></div>-->
 
 <?php include_once "components/scripts.php"; ?>
+
+<script>
+    var audio = document.getElementById("site_video");
+    if(audio)
+        audio.volume = 0.1;
+</script>
 
 </body>
 
