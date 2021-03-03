@@ -7,5 +7,6 @@
   "logo": "deloitte/DEL_PRI_RGB.png",
   "banner": ["companies/media/deloitte/deloitte.png"],
   "logo-header": "deloitte/DEL_PRI_RGB.png",
-  "template": ""
+  "video": "deloitte/video.mp4",
+  "template": "deloitte.html"
 }
