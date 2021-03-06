@@ -7,19 +7,37 @@
       "title": "SBP Romania",
       "start": "12:00",
       "end" :  "13:00",
-      "url" : ""
+      "url" : "https://teams.microsoft.com/l/channel/19%3a9431c44adc9e4cf69f6f48dc5033db56%40thread.tacv2/Sesiune%2520Networking-1?groupId=8343b5d5-b72f-4358-93d2-5b813617f9f6&tenantId=08a1a72f-fecd-4dae-8cec-471a2fb7c2f11"
     },
     {
       "title": "P&G",
       "start": "12:00",
       "end" :  "13:00",
-      "url" : ""
+      "url" : "https://teams.microsoft.com/l/channel/19%3aa46620ec23ae43aa992b1b966bb587f3%40thread.tacv2/Sesiune%2520Networking-2?groupId=8343b5d5-b72f-4358-93d2-5b813617f9f6&tenantId=08a1a72f-fecd-4dae-8cec-471a2fb7c2f1"
+    },
+    {
+      "title": "Deloitte",
+      "start": "12:00",
+      "end" :  "13:00",
+      "url" : "https://teams.microsoft.com/l/channel/19%3a57059272d8494a279f61251c50883d31%40thread.tacv2/Sesiune%2520Networking-3?groupId=8343b5d5-b72f-4358-93d2-5b813617f9f6&tenantId=08a1a72f-fecd-4dae-8cec-471a2fb7c2f11"
+    },
+    {
+      "title": "LSEG",
+      "start": "12:00",
+      "end" :  "13:00",
+      "url" : "https://teams.microsoft.com/l/channel/19%3a0997aea9db8c4c2eab82b884642fef9f%40thread.tacv2/Sesiune%2520Networking-4?groupId=8343b5d5-b72f-4358-93d2-5b813617f9f6&tenantId=08a1a72f-fecd-4dae-8cec-471a2fb7c2f11"
+    },
+    {
+      "title": "Endava",
+      "start": "13:00",
+      "end" :  "14:00",
+      "url" : "https://teams.microsoft.com/l/channel/19%3a9431c44adc9e4cf69f6f48dc5033db56%40thread.tacv2/Sesiune%2520Networking-1?groupId=8343b5d5-b72f-4358-93d2-5b813617f9f6&tenantId=08a1a72f-fecd-4dae-8cec-471a2fb7c2f1"
     },
     {
       "title": "Autodesk",
       "start": "14:00",
       "end" :  "15:00",
-      "url" : ""
+      "url" : "https://teams.microsoft.com/l/channel/19%3aa46620ec23ae43aa992b1b966bb587f3%40thread.tacv2/Sesiune%2520Networking-2?groupId=8343b5d5-b72f-4358-93d2-5b813617f9f6&tenantId=08a1a72f-fecd-4dae-8cec-471a2fb7c2f1"
     }
   ]
 }
